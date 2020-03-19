@@ -9,52 +9,51 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 global $post;
 ?>
-<main>
-    <div class="container-fluid p-0 bc_hero_container bc_home_section_bg py-5" <?php if (has_post_thumbnail() ) { $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id() ), 'single-post-thumbnail' ); ?> style="background-image: url('<?php echo $image[0]; ?>');" <?php }?>>
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-sm-12 ">
-                    <div class="bc_subpage_hero_overlay d-block d-md-flex text-center">
-                        <?php $title = get_post_meta( $post->ID, 'title_overlay', true );
-                        if(isset($title) && !empty($title)){
-                            echo $title;
-                        }?>
+
+<main id="MainZone">
+
+<!-- Banner starts -->
+<?php get_template_part( 'page-templates/common/bc-banner-section' ); ?>
+<!-- Banner ends -->
+
+<section class="two-column-layout light-bg col-66-33 vertical-padding items-spaced flow-reverse" id="TwoColumnLayout">
+    
+    <div class="main flex-spaced-between-block-1024-margined item-spacing item-widths flex-direction">
+    <div class="content-zone" id="ContentZone">
+        <div class="column-layout-content transparent-bg bg-box-none light-bg" id="ColumnLayoutContent" data-onvisible="show">
+            <div class="bg-box side-padding-medium vertical-padding-small box-flair border-radius">
+                <div class="flair-border">
+                    <span class="flair-1"></span>
+                    <span class="flair-2"></span>
+                    <div class="content-style" id="MainContent" data-content="true">
+                        <!-- The Content Starts -->
+                        <?php 
+                        if ( have_posts() ) : 
+                            while ( have_posts() ) : the_post();
+                                the_content();
+                            endwhile;
+                        endif;
+                        ?>
+                        <!-- The Content ends --> 
                     </div>
                 </div>
             </div>
         </div>
+        <script id="Process_ColumnLayoutContent" type="text/javascript" style="display:none;">window.Process&&Process.Page(['Process_ColumnLayoutContent','ColumnLayoutContent_1']);</script>
     </div>
-    
+       <!-- left sidebar starts -->
+        <?php get_template_part( 'sidebar-templates/sidebar', 'subpageleftsidebar' ); ?>
+        <!-- left sidebar ends -->
+    </div>
+</section>
 
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                <!-- The Content Starts -->
-                <?php 
-                if ( have_posts() ) : 
-                    while ( have_posts() ) : the_post();
-                        the_content();
-                    endwhile;
-                endif;
-                ?>
-                <!-- The Content ends --> 
-                <!-- right sidebar starts -->
-                <?php get_template_part( 'sidebar-templates/sidebar', 'subpagerightsidebar' ); ?>
-                <!-- right sidebar ends -->
-                </div>
-            </div>
-        </div>
-        <!--  Include Heating Services Features file here -->
-        <?php get_template_part( 'page-templates/common/bc-heating-services-features' ); ?>
+    <!-- Testimonial Section starts -->
+    <?php echo do_shortcode('[bc-testimonial-review]');?>
+    <!-- Testimonial Section ends -->
 
-        <?php get_template_part( 'page-templates/common/bc-dont-see-service' ); ?>
-        
-        
-    <!--  Include blogs file here -->
-    <?php echo do_shortcode('[bc-blog-slider]');?>
-    <?php //get_template_part( 'page-templates/common/blogs' ); ?>
+    <!-- unmatched customer service starts -->
+        <?php get_template_part( 'page-templates/common/bc-unmatched-customer-service' ); ?>
+    <!-- unmatched customer service ends -->
 
-    <!--  Include testimonial file here -->
-    <?php get_template_part( 'page-templates/common/testimonials' ); ?>
 </main>
 <?php get_footer();?>

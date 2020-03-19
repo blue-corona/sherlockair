@@ -1,4 +1,4 @@
-<div class="bc_nav_container">
+<div>
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark m-auto d-table w-100">
             <div id="navbarSupportedContent" class="navbar-collapse collapse" style="">

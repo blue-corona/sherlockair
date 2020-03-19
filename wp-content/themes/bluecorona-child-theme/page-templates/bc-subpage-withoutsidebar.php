@@ -8,55 +8,32 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();?>
 
-<main>
-    <div class="container-fluid p-0 bc_hero_container bc_home_section_bg py-5" <?php if (has_post_thumbnail() ) { $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id() ), 'single-post-thumbnail' ); ?> style="background-image: url('<?php echo $image[0]; ?>');" <?php }?>>
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-sm-12 ">
-                    <div class="bc_subpage_hero_overlay d-block d-md-flex text-center">
-                        <?php $title = get_post_meta( $post->ID, 'title_overlay', true );
-                        if(isset($title) && !empty($title)){
-                            echo $title;
-                        }?>
-                    </div>
-                </div>
-            </div>
-        </div>
+<main id="MainZone">
+<!-- Banner starts -->
+<?php get_template_part( 'page-templates/common/bc-banner-section' ); ?>
+<!-- Banner ends -->
+
+
+<section class="two-column-layout light-bg col-66-33 vertical-padding items-spaced flow-reverse" id="TwoColumnLayout">
+    <div class="main thin text-align">
+        <header class="no-pad bottom-margin-tiny center-800" id="ContactSystemV2Header">
+            <h1><?php the_title();?></h1>
+            <svg class="header-flair" role="presentation">
+            <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
+            </svg>
+        </header>
+        <!-- The Content Starts -->
+        <?php 
+        if ( have_posts() ) : 
+            while ( have_posts() ) : the_post();
+                the_content();
+            endwhile;
+        endif;
+        ?>
+        <!-- The Content ends --> 
     </div>
-    <div class="container-fluid p-0 bc_contact_us_container" style="background-image: linear-gradient(to right, #3a76b1 50%, #00395e 50%); background-size:cover;background-repeat:no-repeat;">
-        <div class="container" style="background-image: url('<?php echo get_template_directory_uri();?>/img/contact_small.svg'); background-color: #01385e; background-size:cover;background-repeat:no-repeat;">
-            <div class="row">
-                <div class="col-md-2 m-auto text-center text-lg-left text-md-left bc_text_48 bc_line_height">
-                    <span class="bc_primary_heading_white">24/7</span>
-                    <span class="bc_primary_heading_white">SERVICE</span>
-                </div>
-                <div class="col-md-8 text-center ">
-                    <div class="entry-content "><?php echo do_shortcode('[gravityform id=4]')?></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- The Content Starts -->
-    <?php 
-    if ( have_posts() ) : 
-        while ( have_posts() ) : the_post();
-            the_content();
-        endwhile;
-    endif;
-    ?>
-    <!-- The Content ends --> 
+</section>
 
-    <!--  Include Heating Services Features file here -->
-    <?php get_template_part( 'page-templates/common/bc-heating-services-features' ); ?>
-
-    <!-- heating services ends -->
-
-    <?php get_template_part( 'page-templates/common/bc-dont-see-service' ); ?>
-    
-    <!--  Include blogs file here -->
-    <?php echo do_shortcode('[bc-blog-slider]');?>
-    <?php //get_template_part( 'page-templates/common/blogs' ); ?>
-    <!--  Include testimonial file here -->
-    <?php get_template_part( 'page-templates/common/testimonials' ); ?>
+<script id="Process_ContactSystemV2" type="text/javascript" style="display:none;">window.Process&&Process.Page(['Process_ContactSystemV2','ContactSystemV2_1','ContactSystemV2_2']);</script>
 </main>
 <?php get_footer();?>
