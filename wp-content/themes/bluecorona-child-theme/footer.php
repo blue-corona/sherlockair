@@ -44,9 +44,6 @@ rrequire('m/scrolling-list',function(){$('#SideCouponV1List').scrollingList();})
 </script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/a_1bfgxd0uf.2001241829564.js" defer data-require='["sa"]'></script>
 
-<script type="text/javascript" src="https://www.sherlockair.com/cms/includes/8b_gibugjcm.2001301123088.js" defer></script>
-
-
 <?php wp_footer(); ?>
 </body>
 </html>
