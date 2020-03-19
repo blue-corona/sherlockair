@@ -35,7 +35,7 @@ defined( 'ABSPATH' ) || exit;
              <li class="flex-block-500 align-items center-500 auto side-padding-small vertical-padding-tiny bg-box border-radius-item" data-item="i" data-key="3421">
                 <span class="ico-con">
                    <svg viewBox="0 0 24 24" class="values-icon" role="presentation">
-                      <use data-href="https://www.sherlockair.com/cms/svg/site/5d1zpk6tjes.24.svg#tech"></use>
+                      <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#tech"></use>
                    </svg>
                 </span>
                 <div class="info">
@@ -46,7 +46,7 @@ defined( 'ABSPATH' ) || exit;
              <li class="flex-block-500 align-items center-500 auto side-padding-small vertical-padding-tiny bg-box border-radius-item" data-item="i" data-key="3420">
                 <span class="ico-con">
                    <svg viewBox="0 0 24 24" class="values-icon" role="presentation">
-                      <use data-href="https://www.sherlockair.com/cms/svg/site/5d1zpk6tjes.24.svg#service_agreements"></use>
+                      <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#service_agreements"></use>
                    </svg>
                 </span>
                 <div class="info">
@@ -57,7 +57,7 @@ defined( 'ABSPATH' ) || exit;
              <li class="flex-block-500 align-items center-500 auto side-padding-small vertical-padding-tiny bg-box border-radius-item" data-item="i" data-key="3419">
                 <span class="ico-con">
                    <svg viewBox="0 0 24 24" class="values-icon" role="presentation">
-                      <use data-href="https://www.sherlockair.com/cms/svg/site/5d1zpk6tjes.24.svg#solutions"></use>
+                      <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#solutions"></use>
                    </svg>
                 </span>
                 <div class="info">
