@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+	//Classes for font-weights
+	.bc_sm_text_thin { font-weight: 100; }
+	.bc_sm_text_xlight { font-weight: 200; }
+	.bc_sm_text_light { font-weight: 300; }
+	.bc_sm_text_normal { font-weight: 400; }
+	.bc_sm_text_medium { font-weight: 500; }
+	.bc_sm_text_semibold { font-weight: 600; }
+	.bc_sm_text_bold { font-weight: 700; }
+	.bc_sm_text_xbold { font-weight: 800; }
+	.bc_sm_text_heavy { font-weight: 900; }
+
+	//Classes for font sizes
+	.bc_sm_text_16 { font-size: 16px; }
+	.bc_sm_text_18 { font-size: 18px; }
+	.bc_sm_text_20 { font-size: 20px; }
+	.bc_sm_text_24 { font-size: 24px; }
+	.bc_sm_text_30 { font-size: 30px; }
+	.bc_sm_text_36 { font-size: 36px; }
+	.bc_sm_text_48 { font-size: 48px; }
+
+	//Classes for line Heights
+	.bc_sm_line_height_14 { line-height: 14px; }
+	.bc_sm_line_height_16 { line-height: 16px; }
+	.bc_sm_line_height_18 { line-height: 18px; }
+	.bc_sm_line_height_20 { line-height: 20px; }
+	.bc_sm_line_height_22 { line-height: 22px; }
+	.bc_sm_line_height_24 { line-height: 24px; }
+	.bc_sm_line_height_26 { line-height: 26px; }
+	.bc_sm_line_height_30 { line-height: 30px; }
+	.bc_sm_line_height_34 { line-height: 34px; }
+	.bc_sm_line_height_36 { line-height: 36px; }
+	.bc_sm_line_height_48 { line-height: 48px; }
+	.bc_sm_line_height_60 { line-height: 60px; }
+
+
+	//Classes for letter spacing
+	.bc_sm_letter_spacing_24 { letter-spacing: 24px; }
+	.bc_sm_letter_spacing_25 { letter-spacing: 25px; }
+	.bc_sm_letter_spacing_36 { letter-spacing: 36px; }
+}

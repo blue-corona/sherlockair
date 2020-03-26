@@ -1,0 +1,129 @@
+@import "fonts_backup"; //Remove this for new themes
+@import "bc_fonts_mobile";
+
+//Default BC core font scheme
+h1, .h1{
+	font-family: $default_font_family;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: none;
+	line-height: 48px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h2, .h2{
+	font-family: $default_font_family;
+	font-size: 36px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 36px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h3, .h3{
+	font-family: $default_font_family;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 36px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h4, .h4{
+	font-family: $default_font_family;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 30px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h5, .h5{
+	font-family: $default_font_family;
+	font-size: 18px;
+	font-weight: 400; 
+	text-transform: none;
+	line-height: 24px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h6, .h6{
+	font-family: $default_font_family;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 18px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+p, .p{
+	font-family: $default_font_family;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 36px;
+	letter-spacing: default;
+	color: $primary_color;
+
+}
+
+//Todo: need to style for hyperlinks <a>
+
+//Classes for font family
+.bc_font_default { font-family: $default_font_family; }
+.bc_font_alt_1 { font-family: $alternate_font_family_1; }
+.bc_font_alt_2 { font-family: $alternate_font_family_2; }
+.bc_font_alt_3 { font-family: $alternate_font_family_3; }
+
+//Classes for font-weights
+.bc_text_thin { font-weight: 100; }
+.bc_text_xlight { font-weight: 200; }
+.bc_text_light { font-weight: 300; }
+.bc_text_normal { font-weight: 400; }
+.bc_text_medium { font-weight: 500; }
+.bc_text_semibold { font-weight: 600; }
+.bc_text_bold { font-weight: 700; }
+.bc_text_xbold { font-weight: 800; }
+.bc_text_heavy { font-weight: 900; }
+
+//Classes for font sizes
+.bc_text_16 { font-size: 16px; }
+.bc_text_18 { font-size: 18px; }
+.bc_text_20 { font-size: 20px; }
+.bc_text_24 { font-size: 24px; }
+.bc_text_30 { font-size: 30px; }
+.bc_text_36 { font-size: 36px; }
+.bc_text_48 { font-size: 48px; }
+
+//Classes for line Heights
+.bc_line_height_14 { line-height: 14px; }
+.bc_line_height_16 { line-height: 16px; }
+.bc_line_height_18 { line-height: 18px; }
+.bc_line_height_20 { line-height: 20px; }
+.bc_line_height_22 { line-height: 22px; }
+.bc_line_height_24 { line-height: 24px; }
+.bc_line_height_26 { line-height: 26px; }
+.bc_line_height_30 { line-height: 30px; }
+.bc_line_height_34 { line-height: 34px; }
+.bc_line_height_36 { line-height: 36px; }
+.bc_line_height_48 { line-height: 48px; }
+.bc_line_height_60 { line-height: 60px; }
+
+
+//Classes for letter spacing
+.bc_letter_spacing_24 { letter-spacing: 24px; }
+.bc_letter_spacing_25 { letter-spacing: 25px; }
+.bc_letter_spacing_36 { letter-spacing: 36px; }
+
+body, ::placeholder, button {
+  font-family: $default_font_family;
+  font-weight: 400;
+  line-height: 36px;
+  color: $success_color;
+}

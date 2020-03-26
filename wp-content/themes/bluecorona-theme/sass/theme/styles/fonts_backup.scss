@@ -1,0 +1,68 @@
+.nunito {
+	font-family: Nunito;
+}
+
+.bc_section_link {
+	color: $primary_color !important;
+	font-size: 24px !important;
+}
+
+.bc_announcement_bar{
+	a{
+		font-size: 16px !important;
+	}
+}
+
+.bc_locations_secondary_text {
+	color:$warning_color;
+}
+
+.bc_coupon_heading{
+	font-size:2.25rem;
+}
+
+.bc_alternate_font_white{
+	font-family:$alternate_font_family_1;
+	color:$secondary_color; 
+	font-weight:400;
+
+}
+.bc_alternate_font_blue{
+	color:$primary_color; 
+	font-family:$alternate_font_family_1;
+	font-weight:400;
+}
+
+.bc_primary_heading_blue {
+	font-family: $alternate_font_family_2;
+	color: $primary_color;
+	font-weight:400 !important;
+}
+
+.bc_primary_content_blue {
+	font-family: $default_font_family;
+	color: $primary_color;	
+}
+
+.bc_primary_heading_white {
+	font-family: $alternate_font_family_2;
+	color: $secondary_color;
+	font-weight:400 !important;
+}
+
+.alt_title {
+    font-family: Pacifico;
+    text-transform: capitalize;
+    display: block;
+    line-height: 1.5em;
+}
+h1 {
+	color: $primary_color;
+}
+h5 {
+	font-size: 18px;
+	font-weight: 600;
+}
+footer > p {
+	color:white !important;
+}

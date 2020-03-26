@@ -1,0 +1,195 @@
+// Nav bar color scheme according to theme customizer
+.bc_nav_container{
+	#navbarSupportedContent{
+		@media (hover: none), only screen and (max-width: 768px) {
+			height: auto;
+		    max-height: 500px;
+		    overflow-x: hidden;
+		}
+	}
+
+	a:hover { 
+		@media (hover: none), only screen and (max-width: 768px) {
+			background-color: #ffffff00 !important; // Mobile nav bar Background
+		}
+	}
+	 
+	background-color: $primary_color; // Nav bar Background
+	@media (hover: none), only screen and (max-width: 768px) {
+		background-color: $primary_color; // Mobile nav bar Background
+	}
+	.navbar-nav{
+		li {
+
+			a {
+				color: $secondary_color; //Top level link
+				svg { color: $info_color; } // Top level dropdown icon
+			}
+			&:hover{
+				background-color: $info_color;	// Top level dropdown background hover
+				@media (hover: none), only screen and (max-width: 768px) {
+					background-color: #ffffff00 !important; // Mobile nav bar Background
+				}		
+				svg { color: $primary_color; } //Top level dropdown icon hover
+				a.nav-link { color: $secondary_color; } // Top level link hover	
+			}
+		}
+		.dropdown-menu{ 
+			background-color: $info_color; // Dropdown background
+			@media (hover: none), only screen and (max-width: 768px) {
+				 background-color: #ffffff00 !important; 
+			} 
+		} 
+	}
+
+	.dropdown {
+		li, .dropdown-item {
+
+
+			a{	
+				color: $secondary_color; // Dropdown link
+				svg { // Dropdown icon 
+					color: $primary_color; 
+					@media (hover: none), only screen and (max-width: 768px) {
+						color: $info_color;
+					}
+				} 
+
+			}
+
+			&:focus{
+				background-color:$primary_color;
+				@media (hover: none), only screen and (max-width: 768px) {
+					// background-color: #ffffff00 !important;
+				}
+			}
+
+			&:hover{
+				background-color: $tertiary_color; 	//Dropdown background hover	
+				@media (hover: none), only screen and (max-width: 768px) {
+					background-color: #ffffff00 !important; // Mobile nav bar Background
+				}
+				svg { color: $secondary_color; } // Dropdown icon hover
+				a { // Dropdown icon hover
+					color: $secondary_color;
+				} 
+			}
+		}
+	}
+}
+
+.navbar-toggler-icon{ color: $tertiary_color; } // Toggle icon color
+
+//Menu dropdown modifications
+
+.dropdown-menu{
+	border-radius: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+    margin-top: 0px;
+    border: 0px;
+	.dropdown-toggle {
+		svg{
+			transform: rotate(-90deg);
+			right: 15px;
+			position: absolute;
+			top: 18px;
+		}
+		
+	}
+}
+
+.navbar {
+	padding: 0rem 1rem;
+}
+.navbar-nav{
+	li{
+		padding-top: .5rem;
+		padding-bottom: .5rem;	
+	}
+	& > li {
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
+}
+.dropdown {
+
+	li {
+		.dropdown-toggle.nav-link{
+	    	padding-top: 10px;
+			padding-bottom: 10px;	
+	    }
+		padding: 0rem 0rem;	
+		@media (hover: none), only screen and (max-width: 768px) {
+			padding-left:30px !important;
+		}
+	}
+
+
+	.dropdown-item {
+		padding-top: 10px;
+		padding-bottom:10px;
+	}
+
+
+	ul ul {
+		@media only screen and (min-width: 1024px) {
+			margin-left: 100%;
+			margin-top: -56px;
+		}
+		@media (hover: none){
+			margin-left: 0px;
+			margin-top: 0px;
+		}	
+		a {
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+				
+		}
+	}
+
+	.dropdown-toggle{
+		&::after {
+		  	display:none;
+		}
+	}
+}
+
+//Overriding navbar-expand-lg behaviour for touch screen devices 
+@media (hover: none) {
+	nav.navbar-expand-lg{
+		.m-lg-auto, &.m-lg-auto{
+			margin: 0px 0px !important;
+		}
+		.float-lg-none{
+			float: right !important;
+		}
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between; 
+		position: relative;
+		display: flex;
+		align-items: center;
+		.navbar-nav{
+			flex-direction: column;
+		}
+		.dropdown-menu {
+			position: static !important;
+		}
+		#navbarSupportedContent.navbar-collapse{
+			// .navbar-toggler{
+			// 	display: block !important;
+			// 	float: right;
+			// }
+			flex-basis: 100%;
+			flex-grow: 1;
+			display: block !important;
+			&.collapse:not(.show) {
+			    display: none !important;
+			}
+			& > ul {
+				width: 100%
+			}
+		}
+	}
+}
