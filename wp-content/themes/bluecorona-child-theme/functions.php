@@ -40,7 +40,8 @@ $understrap_includes = array(
     '/widgets/bc-footer-contact-menu-widget.php',
     '/widgets/bc-footer-address-widget.php',
     '/widgets/bc-most-popular-post.php',
-    '/widgets/bc-categories.php'
+    '/widgets/bc-categories.php',
+    '/class-wp-bc-navwalker.php'
 );
 
 foreach ( $understrap_includes as $file ) {

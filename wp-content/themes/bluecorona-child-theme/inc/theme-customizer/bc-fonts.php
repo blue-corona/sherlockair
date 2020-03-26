@@ -107,9 +107,9 @@ function bc_customize_font($wp_customize){
 
 }
 
-add_action('customize_register', 'bc_customize_font');
+// add_action('customize_register', 'bc_customize_font');
 
-add_action( 'wp_head', 'font_style');
+// add_action( 'wp_head', 'font_style');
 function font_style($wp_customize){
     $theme_h1_configuration = get_theme_mod('bc_theme_h1_configuration');
     $theme_h2_configuration = get_theme_mod('bc_theme_h2_configuration');

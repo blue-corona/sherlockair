@@ -14,6 +14,9 @@ defined( 'ABSPATH' ) || exit;
 <html>
 <head>
     <?php wp_head(); ?>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/bc-sherlock-script.js"></script>
     <!-- for sub page sidebar -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/jzzyopmtdiu.1912021253503.css"/>
@@ -28,12 +31,10 @@ defined( 'ABSPATH' ) || exit;
     <!-- for blog page -->
 
     <!-- for single blog page -->
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/includes/8sx6nwnyz0v.1912021253503.css" data-require='["cms","cms-behave"]'/>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/8sx6nwnyz0v.1912021253503.css" data-require='["cms","cms-behave"]'/>
     <!-- for single blog page -->
 
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/xfe68wggbgd.2003121251140.js"></script>
-
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/xfe68wggbgd.2002251052536.js" defer data-require='["j/poly","j/modernizr","j/jquery.3.x","j/jquery.ui","j/ui.touch","j/ui.wheel","j/ui.draw","j/ui.mobile","j/timezone","static","j/jquery.cookie","extensions","uri","behaviors","c/scrollbar","c/loading","m/date","form","adapter","v/jwplayer","video","a/bootstrap","svg"]'></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/xfe68wggbgd.2003121251140.js" async data-require='["j/poly","j/modernizr","j/ui.mobile","j/timezone","static","j/jquery.cookie","extensions","uri","behaviors","c/scrollbar","c/loading","m/date","form","adapter","v/jwplayer","video","a/bootstrap","svg"]'></script>
 </head>
 <body <?php custom_body_class(); ?>>
     <header id="HeaderZone">

@@ -1,42 +1,77 @@
 //gravity forms error handling
+//gravity forms error handling
 jQuery(document).on('gform_post_render', function(event, form_id, current_page){
+console.log('In this file');
     // code to trigger on form or form page render
     //Error for form with static labels
-	jQuery('.gfield_error > .ginput_container').focusin(function(){
-    jQuery(this).parent('li').children('label').show();
-		jQuery(this).parent('li').children('.validation_message').hide();
-		jQuery(this).parent('li').removeClass('gfield_error');
-	});
+    jQuery('.gfield_error > .ginput_container').focusin(function(){
+      jQuery(this).parent('li').children('label').show();
+      jQuery(this).parent('li').find('.validation_message').hide();
+      jQuery(this).parent('li').removeClass('gfield_error');
+    });
     console.log('form render');
     toggleFloatLabel('.ginput_container_text');
+    toggleFloatLabel('.ginput_container_textarea');
+    toggleFloatLabel('.ginput_container_phone');
   //Code for form with floating labels
-    jQuery('.ginput_container_text').focusin(function(){
-      jQuery(this).parent('li').children('label').addClass('float_label');
-    });
-    
+  jQuery('.ginput_container_text').focusin(function(){
+    jQuery(this).parent('li').children('label').addClass('float_label');
+  });
 
-    jQuery('.ginput_container_text').focusout(function(){
-       toggleFloatLabel(this);
-        
-    });
+
+  jQuery('.ginput_container_text').focusout(function(){
+   toggleFloatLabel(this, 'input');
+
+ });
+
+  jQuery('.ginput_container_textarea').focusin(function(){
+    jQuery(this).parent('li').children('label').addClass('float_label');
+  });
+
+
+  jQuery('.ginput_container_textarea').focusout(function(){
+   toggleFloatLabel(this, 'textarea');
+
+ });
+
+  jQuery('.ginput_container_phone').focusin(function(){
+    jQuery(this).parent('li').children('label').addClass('float_label');
+  });
+
+
+  jQuery('.ginput_container_phone').focusout(function(){
+   toggleFloatLabel(this, 'tel');
+
+  });
 
 
     //Error handling for form with floating labels
     jQuery('.floating_labels .gfield_error > label').hide();
-    jQuery('.floating_labels .gfield_error > .validation_message').addClass('validation_message--float');    
+    jQuery('.floating_labels .gfield_error .validation_message').addClass('validation_message--float');    
 
-});
+  });
 
-function toggleFloatLabel(selector){
-  jQuery(selector).children('input').each(function(){
+function toggleFloatLabel(selector, type){
+  var containerClass='.ginput_container_text';
+
+  if(type=='textarea'){
+    containerClass='.ginput_container_textarea';
+  }
+  if(type=='tel'){
+    containerClass='.ginput_container_phone';
+    type='input';
+  }
+  
+  jQuery(selector).children(type).each(function(){
     if(!jQuery(this).val()) {
-      jQuery(this).parent('.ginput_container_text').parent('li').children('label').removeClass('float_label');
+      jQuery(this).parent(containerClass).parent('li').find('label').removeClass('float_label');
       console.log(2);
     } else {
-      jQuery(this).parent('.ginput_container_text').parent('li').children('label').addClass('float_label');
+      jQuery(this).parent(containerClass).parent('li').find('label').addClass('float_label');
       console.log(3);
     }
   })
+
 }
 
 
