@@ -8706,4 +8706,11 @@ select {
   .show-on-touch {
     display: block !important; } }
 
+.notification.v2 {
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem; }
+
+.notification.v2 a:hover {
+  text-decoration: none; }
+
 /*# sourceMappingURL=child-theme.css.map */
