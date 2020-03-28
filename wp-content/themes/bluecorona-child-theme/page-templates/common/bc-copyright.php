@@ -7,7 +7,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 <?php
-echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_text', '<section class="small-padding dark-bg">
+echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_text', '<section class="copyright-section small-padding dark-bg">
     <div class="main">
         <div class="flex-middle-spaced-between">
          <small class="info">
