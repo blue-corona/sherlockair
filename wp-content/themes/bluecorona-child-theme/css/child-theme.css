@@ -8477,7 +8477,7 @@ a.text-dark:hover, a.text-dark:focus {
 .gform_wrapper ul li.gfield select {
   font-size: 14px;
   margin-top: 12px;
-  background: url("../img/br_down.png") no-repeat right #ffffff !important;
+  background: url("../images/br_down.png") no-repeat right #ffffff !important;
   -webkit-appearance: none !important;
   -moz-appearance: none;
   /* Firefox */
