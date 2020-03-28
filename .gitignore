@@ -116,3 +116,4 @@ wp-content/mysql.sql
 
 .phpintel/*
 !.phpintel/
+node_modules
