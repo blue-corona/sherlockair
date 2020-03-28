@@ -8154,6 +8154,132 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.bc_color_primary, .bc_color_primary--imp {
+  color: #00395e; }
+  .bc_color_primary--imp {
+    color: #00395e !important; }
+
+.bc_color_secondary, .bc_color_secondary--imp {
+  color: #ffffff; }
+  .bc_color_secondary--imp {
+    color: #ffffff !important; }
+
+.bc_color_tertiary, .bc_color_tertiary--imp {
+  color: #005076; }
+  .bc_color_tertiary--imp {
+    color: #005076 !important; }
+
+.bc_color_quaternary, .bc_color_quaternary--imp {
+  color: #5692b9; }
+  .bc_color_quaternary--imp {
+    color: #5692b9 !important; }
+
+.bc_color_error, .bc_color_error--imp {
+  color: #842F3F; }
+  .bc_color_error--imp {
+    color: #842F3F !important; }
+
+.bc_color_warning, .bc_color_warning--imp {
+  color: #f59b26; }
+  .bc_color_warning--imp {
+    color: #f59b26 !important; }
+
+.bc_color_success, .bc_color_success--imp {
+  color: #094664; }
+  .bc_color_success--imp {
+    color: #094664 !important; }
+
+.bc_color_info, .bc_color_info--imp {
+  color: #7EC2E2; }
+  .bc_color_info--imp {
+    color: #7EC2E2 !important; }
+
+.bc_color_black, .bc_color_black--imp {
+  color: #000000; }
+  .bc_color_black--imp {
+    color: #000000 !important; }
+
+.bc_color_primary_bg {
+  background-color: #00395e; }
+
+.bc_color_secondary_bg {
+  background-color: #ffffff; }
+
+.bc_color_tertiary_bg {
+  background-color: #005076; }
+
+.bc_color_quaternary_bg {
+  background-color: #5692b9; }
+
+.bc_color_error_bg {
+  background-color: #842F3F; }
+
+.bc_color_warning_bg {
+  background-color: #f59b26; }
+
+.bc_color_success_bg {
+  background-color: #094664; }
+
+.bc_color_info_bg {
+  background-color: #7EC2E2; }
+
+.bc_color_black_bg {
+  background-color: #000000; }
+
+.bc_color_primary_hover:hover {
+  color: #00395e !important; }
+
+.bc_color_secondary_hover:hover {
+  color: #ffffff !important; }
+
+.bc_color_tertiary_hover:hover {
+  color: #005076 !important; }
+
+.bc_color_quaternary_hover:hover {
+  color: #5692b9 !important; }
+
+.bc_color_error_hover:hover {
+  color: #842F3F !important; }
+
+.bc_color_warning_hover:hover {
+  color: #f59b26 !important; }
+
+.bc_color_success_hover:hover {
+  color: #094664 !important; }
+
+.bc_color_info_hover:hover {
+  color: #7EC2E2 !important; }
+
+.bc_color_black_hover:hover {
+  color: #000000 !important; }
+
+.bc_color_primary_hover_bg:hover {
+  background-color: #00395e; }
+
+.bc_color_secondary_hover_bg:hover {
+  background-color: #ffffff; }
+
+.bc_color_tertiary_hover_bg:hover {
+  background-color: #005076; }
+
+.bc_color_quaternary_hover_bg:hover {
+  background-color: #5692b9; }
+
+.bc_color_error_hover_bg:hover {
+  background-color: #842F3F; }
+
+.bc_color_warning_hover_bg:hover {
+  background-color: #f59b26; }
+
+.bc_color_success_hover_bg:hover {
+  background-color: #094664; }
+
+.bc_color_info_hover_bg:hover {
+  background-color: #7EC2E2; }
+
+.bc_color_black_hover_bg:hover {
+  background-color: #000000; }
+
 .gform_wrapper .gfield_required {
   display: none; }
 

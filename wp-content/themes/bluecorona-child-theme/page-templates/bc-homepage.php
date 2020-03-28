@@ -283,5 +283,6 @@ get_header();
         </picture>
     </div>
 </section>
+</main>
 <!-- Blog Section ends Here -->
 <?php get_footer(); ?>
