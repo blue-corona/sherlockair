@@ -64,18 +64,8 @@ defined( 'ABSPATH' ) || exit;
                     <img class="dark-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo.png">
                     <img class="light-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo2.png">
                 </a>
-            <button class="menu-btn desktop hide-800 btn-colors" title="Main Menu" aria-label="Main Menu" data-role="btn">
-            <span></span>
-            <span></span>
-            <span></span>
-            </button>
-            <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
+                <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
             </div>
-          <button class="menu-btn mobile btn-colors" title="Main Menu" aria-label="Main Menu" data-role="btn">
-          <span></span>
-          <span></span>
-          <span></span>
-          </button>
        </div>
    <script id="Process_HeaderV4" type="text/javascript" style="display:none;">window.Process&&Process.Page(['Process_HeaderV4','HeaderV4_1','HeaderV4_2','HeaderV4_3','HeaderV4_4','HeaderV4_5','HeaderV4_6']);</script>
 </header>
