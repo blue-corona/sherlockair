@@ -8741,7 +8741,8 @@ select {
   line-height: 1.2;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  text-transform: none; }
+  text-transform: none;
+  margin-bottom: 8%; }
 
 #SideZone .gform_widget .gform_footer #gform_submit_button_2:hover {
   color: #F5F9FA;
