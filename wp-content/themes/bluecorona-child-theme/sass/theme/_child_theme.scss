@@ -333,3 +333,50 @@
 .flair-1 {
   transform: scale(1, 1);
 }
+
+.overlap #HeaderZone {
+  transition: all 0.2s;
+}
+
+.overlap header#HeaderZone.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  transition: all 0.2s;
+}
+
+.sticky-header .bc_nav_container .navbar-nav li a {
+  color: #842F3F!important;
+  -webkit-transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.sticky-header #HeaderV4TopBarContent, .sticky-header #NotificationBannerV2 {
+  display: none;
+}
+
+.sticky-logo {
+  display: none;
+}
+
+.sticky-header .default-logo {
+  display: none;
+}
+
+.sticky-header .sticky-logo {
+  display: block;
+}
+
+.bc_nav_container #navbarSupportedContent a {
+  -webkit-transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
