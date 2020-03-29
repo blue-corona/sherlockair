@@ -45,7 +45,7 @@ get_header();
                          <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
                       </svg>
                       <p class="title-style-5 title-color-5 bottom-margin-small">
-                         Proudly serving customers in Vista, Carlsbad, Oceanside, Encinitas, San Marcos, and surrounding cities in North San Diego County since 2002 with exceptional service.&nbsp; &nbsp; &nbsp;<a class="main-btn" target="_blank" href="https://solo.servicewhale.com/request/wizard?contrid=4870"><img style="max-width: 11em;padding-top: .8em;" src="<?php echo get_stylesheet_directory_uri();?>/images/contact/btn-2x.19).gif" alt=""></a>
+                         Proudly serving customers in Vista, Carlsbad, Oceanside, Encinitas, San Marcos, and surrounding cities in North San Diego County since 2002 with exceptional service.&nbsp; &nbsp; &nbsp;
                       </p>
                       <ul class="flex-between-spaced-grid-auto-size-max-3-wrap-break-1280-block-500 center-800">
                          <li class="top-margin-tiny fit" data-item="i">
