@@ -8775,7 +8775,7 @@ select {
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
 
-.sticky-header .bc_nav_container .navbar-nav li a {
+.sticky-header .bc_nav_container .navbar-nav > li > a {
   color: #842F3F !important;
   -webkit-transition: none;
   -webkit-transition: none;
