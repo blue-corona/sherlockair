@@ -8755,4 +8755,7 @@ select {
 #SideNavV1 a:hover {
   text-decoration: none; }
 
+.reviews-system.v1 .rating-icons {
+  color: #FFD80A; }
+
 /*# sourceMappingURL=child-theme.css.map */
