@@ -8727,7 +8727,8 @@ select {
 #SideZone .gform_widget .gform_footer {
   text-align: left; }
 
-#SideZone .gform_widget .gform_footer #gform_submit_button_2 {
+/* gravity form submit buttons */
+#SideZone .gform_widget .gform_footer #gform_submit_button_2, #gform_submit_button_6 {
   background-color: #842F3F;
   color: #F5F9FA;
   position: relative;
@@ -8744,7 +8745,7 @@ select {
   font-weight: 600;
   text-transform: none; }
 
-#SideZone .gform_widget .gform_footer #gform_submit_button_2:hover {
+#SideZone .gform_widget .gform_footer #gform_submit_button_2:hover, #gform_submit_button_6:hover {
   color: #F5F9FA;
   background-color: #3F3F3F;
   border-radius: 0 1.5em 0 1.5em !important; }
