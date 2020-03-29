@@ -31,7 +31,6 @@ defined( 'ABSPATH' ) || exit;
 
 </footer>
 
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/chat-v3-min.js" defer></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/a2d466f0-967f-0135-c594-06a9ed4ca31b.js" defer></script>
 
 

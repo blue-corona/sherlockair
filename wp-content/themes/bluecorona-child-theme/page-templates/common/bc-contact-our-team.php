@@ -36,9 +36,7 @@
       </div>
       <div class="border-radius-item" id="FooterV8Callout">
          <picture class="img pad-height-50">
-            <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/images/contact/staticmap.png"/>
-            <source media="(max-width: 800px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/images/contact/staticmap.png"/>
-            <img class="static-map" src="<?php echo get_stylesheet_directory_uri();?>/images/contact/staticmap.png" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/images/contact/staticmap.png">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/images/contact/staticmap.png">
          </picture>
          <div class="callout btn-colors no-hover side-padding-large vertical-padding-tiny text-align">
             <p class="title-style-4 no-top-margin no-bottom-margin">

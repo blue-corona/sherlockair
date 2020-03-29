@@ -6,6 +6,11 @@
 *.swp
 Thumbs.db
 
+# root files that get updated dynamically
+robots.txt
+sitemap.xml
+sitemap.xml.gz
+
 # wordpress specific
 wp-config.php
 wp-content/uploads/
@@ -16,8 +21,11 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
+wp-content/plugins/*
+wp-content/mu-plugins/*
 
 # wpengine specific
+.htaccess
 .smushit-status
 .gitattributes
 _wpeprivate*
@@ -106,3 +114,6 @@ wp-content/mysql.sql
 *.wmv
 *.avi
 
+.phpintel/*
+!.phpintel/
+node_modules
