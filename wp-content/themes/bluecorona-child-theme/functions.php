@@ -59,6 +59,13 @@ function custom_body_class(){
     }
 }
 
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  $mimes['ico'] = 'image/x-icon';
+  return $mimes;
+  }
+  add_filter('upload_mimes', 'cc_mime_types');
+
 /**
  * Generate breadcrumbs
  * @author CodexWorld
