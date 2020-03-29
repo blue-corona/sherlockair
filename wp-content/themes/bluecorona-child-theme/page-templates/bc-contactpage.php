@@ -41,7 +41,7 @@ get_header();?>
 						</div>
 					</div>	
 				</div>
-			<div class="map-container over-item relative border-radius">
+			<div class="map-container over-item relative border-radius" style="background-image: url(<?php echo get_stylesheet_directory_uri();?>/images/contact/staticmap.png);">
 				<div class="imap" data-zoom="14" data-map='{"draggable":false,"scrollwheel":false,"zoomControl":false}' data-autopin="true" data-icon="<?php echo get_stylesheet_directory_uri()?>/images/brand/map-pin.png" data-address="2880 Scott Street, Suite #104, Vista, CA 92081"></div>
 				<span>
 					<div class="location-pop bg-box unlike-bg pseudo-before flex-column-center active">
