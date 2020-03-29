@@ -1,6 +1,6 @@
 <?php
 /**
- * Sidebar - subpage rightside setup.
+ * Sidebar - subpage leftside setup.
  *
  * @package understrap
  */

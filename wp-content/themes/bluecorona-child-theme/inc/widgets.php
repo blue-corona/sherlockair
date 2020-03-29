@@ -144,6 +144,46 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 			)
 		);
 
+		register_sidebar(
+			array(
+				'name'          => __( 'About Us Page Left Sidebar', 'understrap' ),
+				'id'            => 'subpageleftsidebar-about-us',
+				'description'   => __( 'Include Widgets you need in About Us Sub Page left sidebar', 'understrap' ),
+			)
+		);
+
+		register_sidebar(
+			array(
+				'name'          => __( 'Air Conditioning Page Left Sidebar', 'understrap' ),
+				'id'            => 'subpageleftsidebar-air-conditioning',
+				'description'   => __( 'Include Widgets you need in Air Conditioning Sub Page left sidebar', 'understrap' ),
+			)
+		);
+
+		register_sidebar(
+			array(
+				'name'          => __( 'Heating Page Left Sidebar', 'understrap' ),
+				'id'            => 'subpageleftsidebar-heating',
+				'description'   => __( 'Include Widgets you need in Heating Sub Page left sidebar', 'understrap' ),
+			)
+		);
+
+				register_sidebar(
+			array(
+				'name'          => __( 'Plumbing Page Left Sidebar', 'understrap' ),
+				'id'            => 'subpageleftsidebar-plumbing',
+				'description'   => __( 'Include Widgets you need in Plumbing Sub Page left sidebar', 'understrap' ),
+			)
+		);
+
+				register_sidebar(
+			array(
+				'name'          => __( 'Service Areas Page Left Sidebar', 'understrap' ),
+				'id'            => 'subpageleftsidebar-service-areas',
+				'description'   => __( 'Include Widgets you need in Service Areas Sub Page left sidebar', 'understrap' ),
+			)
+		);
+
 		register_sidebar( array(
 		    'name'           => 'Footer',
 		    'id'             => 'footer',
