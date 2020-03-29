@@ -51,14 +51,14 @@ class BC_LeftSidebar_Menu_widget extends WP_Widget {
 
         echo '<aside class="side-nav v1 light-bg border-radius-item box-shadow" id="SideNavV1" data-onvisible="show"><nav>';
         
-        // echo '<header class="text-left"><a href="javascript:void(0)"><h5>';
-        //     if ( $title ) {
-        //         echo $title;
-        //     }else{
-        //         echo 'About';   
-        //     }
-        // echo '</h5></a></header>'
-        // ?> 
+        echo '<header class="text-left"><a href="javascript:void(0)"><h5>';
+            if ( $title ) {
+                echo $title;
+            }else{
+                echo 'About';   
+            }
+        echo '</h5></a></header>'
+        ?> 
 
         <ul class="el-tab-box" role="menu" data-role="panel">
         <?php foreach ($menu_items as $key => $value) { ?>
