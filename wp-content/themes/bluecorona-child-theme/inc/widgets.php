@@ -168,6 +168,14 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 			)
 		);
 
+		register_sidebar(
+			array(
+				'name'          => __( 'HVAC Servies Page Left Sidebar', 'understrap' ),
+				'id'            => 'subpageleftsidebar-hvac-services',
+				'description'   => __( 'Include Widgets you need in HVAC Services Sub Page left sidebar', 'understrap' ),
+			)
+		);		
+
 				register_sidebar(
 			array(
 				'name'          => __( 'Plumbing Page Left Sidebar', 'understrap' ),

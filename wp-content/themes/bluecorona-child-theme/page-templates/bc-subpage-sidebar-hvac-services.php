@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: SubPage-Sidebar-Service-Areas Template
+ * Template Name: SubPage-Sidebar-HVAC-Services Template
  */
 
 // Exit if accessed directly.
@@ -42,7 +42,7 @@ global $post;
         <script id="Process_ColumnLayoutContent" type="text/javascript" style="display:none;">window.Process&&Process.Page(['Process_ColumnLayoutContent','ColumnLayoutContent_1']);</script>
     </div>
        <!-- left sidebar starts -->
-        <?php get_template_part( 'sidebar-templates/sidebar', 'subpageleftsidebar-service-areas' ); ?>
+        <?php get_template_part( 'sidebar-templates/sidebar', 'subpageleftsidebar-hvac-services' ); ?>
         <!-- left sidebar ends -->
     </div>
 </section>
