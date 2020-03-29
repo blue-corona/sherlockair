@@ -37,7 +37,7 @@ get_header();?>
 						<span class="flair-1"></span>
 						<span class="flair-2"></span>
 						<div class="overlap-padding">
-							G-Form Comes Here
+              <?php gravity_form(6, false, false, false, '', true); ?>
 						</div>
 					</div>	
 				</div>
