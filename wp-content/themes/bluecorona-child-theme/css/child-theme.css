@@ -8749,4 +8749,8 @@ select {
   background-color: #3F3F3F;
   border-radius: 0 1.5em 0 1.5em !important; }
 
+#SideNavV1 header a:hover {
+  text-decoration: none;
+  cursor: auto; }
+
 /*# sourceMappingURL=child-theme.css.map */
