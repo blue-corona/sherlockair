@@ -43,6 +43,21 @@ rrequire('m/scrolling-list',function(){$('#SideCouponV1List').scrollingList();})
 </script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/a_1bfgxd0uf.2001241829564.js" defer data-require='["sa"]'></script>
 
+<div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="disclaimerLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content rounded-0">
+      <div class="modal-header">
+        <button type="button" class="close bc_color_secondary_hover_bg" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fal fa-times fa-2x"></i></span>
+        </button>
+      </div>
+      <div class="modal-body px-5 pb-5 col-md-10 offset-1">
+        <h1 id="disclaimerLabel" class="bc_color_black">Disclaimer</h1>
+            <p class="bc_color_black">The information on this website is for informational purposes only; it is deemed accurate but not guaranteed. It does not constitute professional advice. All information is subject to change at any time without notice. <a class="text-danger bc_text_bold" href="<?php echo get_site_url()?>/contact-us" target="_blank">Contact us</a> for complete details.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <?php wp_footer(); ?>
 </body>
 </html>

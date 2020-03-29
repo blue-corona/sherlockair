@@ -335,3 +335,19 @@ function count_post_visits() {
        }
     }
 add_action( 'wp_head', 'count_post_visits' );
+
+add_shortcode( 'site_info_phone_number', 'bc_site_info_phone_number' );
+function bc_site_info_phone_number ( $atts ) {
+    $anchor = true;
+    if(isset($atts['anchor'])){
+        $anchor = $atts['anchor'];
+    }
+    $tel = bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');
+    ob_start();
+    if($anchor){
+        echo "<a href='tel:$tel'>$tel</a>";
+    }else{
+     echo $tel;
+    }
+    return ob_get_clean();
+}

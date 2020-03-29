@@ -32,7 +32,9 @@ class BC_LeftSidebar_Menu_widget extends WP_Widget {
         }
 
         $title = ! empty( $instance['title'] ) ? $instance['title'] : '';
-
+        $page = ! empty( $instance['page'] ) ? $instance['page'] : '';
+        
+        if(isset($page) && !empty($page) && $page == get_the_ID()):
         /** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
         $title = apply_filters( 'widget_title', $title, $instance, $this->id_base );
         echo $args['before_widget'];
@@ -48,10 +50,15 @@ class BC_LeftSidebar_Menu_widget extends WP_Widget {
         if(isset($menu_items) && !empty($menu_items)):
 
         echo '<aside class="side-nav v1 light-bg border-radius-item box-shadow" id="SideNavV1" data-onvisible="show"><nav>';
-        ?>
-        <header class="text-left">
-            <a href="javascript:void(0)"><h5>About Us</h5></a>
-        </header>
+        
+        echo '<header class="text-left"><a href="javascript:void(0)"><h5>';
+            if ( $title ) {
+                echo $title;
+            }else{
+                echo 'About';   
+            }
+        echo '</h5></a></header>'
+        ?> 
 
         <ul class="el-tab-box" role="menu" data-role="panel">
         <?php foreach ($menu_items as $key => $value) { ?>
@@ -64,6 +71,7 @@ class BC_LeftSidebar_Menu_widget extends WP_Widget {
         </ul>
         <?php 
         echo '</nav></aside>';
+        endif;
         endif;
         echo $args['after_widget'];
     }
@@ -83,6 +91,9 @@ class BC_LeftSidebar_Menu_widget extends WP_Widget {
         if ( ! empty( $new_instance['title'] ) ) {
             $instance['title'] = sanitize_text_field( $new_instance['title'] );
         }
+        if ( ! empty( $new_instance['page'] ) ) {
+            $instance['page'] = sanitize_text_field( $new_instance['page'] );
+        }
         if ( ! empty( $new_instance['nav_menu'] ) ) {
             $instance['nav_menu'] = (int) $new_instance['nav_menu'];
         }
@@ -100,6 +111,7 @@ class BC_LeftSidebar_Menu_widget extends WP_Widget {
     public function form( $instance ) {
         global $wp_customize;
         $title    = isset( $instance['title'] ) ? $instance['title'] : '';
+        $page    = isset( $instance['page'] ) ? $instance['page'] : '';
         $nav_menu = isset( $instance['nav_menu'] ) ? $instance['nav_menu'] : '';
 
         // Get menus
@@ -136,6 +148,10 @@ class BC_LeftSidebar_Menu_widget extends WP_Widget {
             <p>
                 <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
                 <input type="text" class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo esc_attr( $title ); ?>"/>
+            </p>
+            <p>
+                <label for="<?php echo $this->get_field_id( 'page' ); ?>"><?php _e( 'Page Id:' ); ?></label>
+                <input type="text" class="widefat" id="<?php echo $this->get_field_id( 'page' ); ?>" name="<?php echo $this->get_field_name( 'page' ); ?>" value="<?php echo esc_attr( $page ); ?>"/>
             </p>
             <p>
                 <label for="<?php echo $this->get_field_id( 'nav_menu' ); ?>"><?php _e( 'Select Menu:' ); ?></label>

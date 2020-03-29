@@ -36,7 +36,7 @@
       </div>
       <div class="border-radius-item" id="FooterV8Callout">
          <picture class="img pad-height-50">
-            <img src="<?php echo get_home_url();?>/wp-content/uploads/2020/03/staticmap.png">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/images/contact/staticmap.png">
          </picture>
          <div class="callout btn-colors no-hover side-padding-large vertical-padding-tiny text-align">
             <p class="title-style-4 no-top-margin no-bottom-margin">

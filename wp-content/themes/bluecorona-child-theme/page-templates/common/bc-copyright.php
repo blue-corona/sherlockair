@@ -14,7 +14,8 @@ echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_text', '<section c
             <div>License# 804838</div>
             <p>&copy; 2020 All Rights Reserved.</p>
          </small>
-                 </div>
+         
+        </div>
     </div>
 </section>');
 ?>	

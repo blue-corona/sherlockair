@@ -35,6 +35,10 @@ defined( 'ABSPATH' ) || exit;
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/8sx6nwnyz0v.1912021253503.css" data-require='["cms","cms-behave"]' />
     <!-- for single blog page -->
 
+    <!-- for search page -->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/lko5txt18y7.1912021253503.css" data-require='["cms","cms-behave"]'/>
+    <!-- for search page -->
+
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/xfe68wggbgd.2003121251140.js" async data-require='["j/poly","j/modernizr","j/ui.mobile","j/timezone","static","j/jquery.cookie","extensions","uri","behaviors","c/scrollbar","c/loading","m/date","form","adapter","v/jwplayer","video","a/bootstrap","svg"]'></script>
   </head>
 
