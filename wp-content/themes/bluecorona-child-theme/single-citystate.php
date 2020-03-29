@@ -44,7 +44,7 @@ global $post;
         <script id="Process_ColumnLayoutContent" type="text/javascript" style="display:none;">window.Process&&Process.Page(['Process_ColumnLayoutContent','ColumnLayoutContent_1']);</script>
     </div>
        <!-- left sidebar starts -->
-        <?php get_template_part( 'sidebar-templates/sidebar', 'subpageleftsidebar' ); ?>
+        <?php get_template_part( 'sidebar-templates/sidebar', 'subpageleftsidebar-service-areas' ); ?>
         <!-- left sidebar ends -->
     </div>
 </section>
