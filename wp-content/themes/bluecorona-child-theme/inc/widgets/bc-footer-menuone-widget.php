@@ -57,8 +57,12 @@ class BC_Footer_Menuone_widget extends WP_Widget {
                 <a class="" target="<?php echo $value->target ?>" href="<?php echo $value->url;?>">
                     <?php echo $value->title; ?>
                 </a>
+
             </li>
         <?php }?>
+            <li class="fit">
+            <a class="no_hover_underline bc_text_16 bc_sm_text_15" href="#" data-toggle="modal" data-target="#disclaimer">Disclaimer</a>
+            </li>
         </ul>
         <?php 
         echo '</nav>';

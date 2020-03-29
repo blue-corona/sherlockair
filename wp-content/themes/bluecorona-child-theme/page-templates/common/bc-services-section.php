@@ -32,7 +32,7 @@ defined( 'ABSPATH' ) || exit;
             $i++;
           ?>
               <li class="flex-column fit bg-box no-shadow border-radius-item" data-item="i" data-key="14114">
-                  <a class="flex- auto scaling-img-item relative full border-radius-item box-shadow" href="">
+                  <a class="flex- auto scaling-img-item relative full border-radius-item box-shadow" href="<?php the_permalink();?>">
                           <picture class="img pad-height-" role="presentation">
                               <?php 
                                 if (has_post_thumbnail() ) { 

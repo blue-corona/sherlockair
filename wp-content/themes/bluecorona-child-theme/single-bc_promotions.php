@@ -1,24 +1,10 @@
-<?php
-/**
- * Template Name: Single Promotions Template
- */
-
-// Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
-?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html>
 <head>
-    <link rel="icon" href="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_favicon_upload',false, get_template_directory_uri().'/img/favicon.ico'); ?>">
-
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <link rel="profile" href="http://gmpg.org/xfn/11">
-    <?php wp_head(); ?>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
-    <meta name="format-detection" content="telephone=no">
+    <title>Print | Carlsbad Heating Service</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/d4e_u02vh21.1912021253503.css" data-require='["cms","cms-behave"]'/>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/xfe68wggbgd.2003121251140.js" defer data-require='["j/poly","j/modernizr","j/jquery.3.x","j/jquery.ui","j/ui.touch","j/ui.wheel","j/ui.draw","j/ui.mobile","j/timezone","static","j/jquery.cookie","extensions","uri","behaviors","c/scrollbar","c/loading","m/date","form","adapter","v/jwplayer","video","a/bootstrap","svg"]'></script>
 </head>
 <body>
 <style type="text/css">
@@ -27,47 +13,44 @@ defined( 'ABSPATH' ) || exit;
 color-adjust: exact !important;  /*Firefox*/ }
 </style>
 <script type="text/javascript">function printPreview(){window.print();}</script>
-    <main>
-        <div class="container-fluid" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 mt-2 px-5">
-                        <?php 
-                        global $post;
-                        $promotion_type = get_post_meta(get_the_ID(), 'promotion_type', TRUE);
-                        if($promotion_type == 'Builder'){
-                            $date = get_post_meta( get_the_ID(), 'promotion_expiry_date1', true );
-                            if(strtotime($date) >= strtotime(current_time('m/d/Y'))){
-                                $title = get_post_meta( get_the_ID(), 'promotion_title1', true );
-                                $color = get_post_meta( get_the_ID(), 'promotion_color', true );
-                                $subheading = get_post_meta( get_the_ID(), 'promotion_subheading', true );
-                                $footer_heading = get_post_meta( get_the_ID(), 'promotion_footer_heading', true ); ?>
-                            <div class="row text-center">
-                                <div class="col-sm-12 p-2 text-center">
-                                    <div class="bc_color_secondary bc_color_primary_bg p-3 mb-3"  style="background-color: <?php echo $color;?>"">
-                                        <div class="py-4 px-3 pt-0 border-white bc_coupon_container">
-                                            <span class="pb-3  bc_font_alt_1 bc_text_36 d-block"><?php echo $title; ?></span>
-                                            <span class="bc_text_30 d-block my-2"><?php echo $subheading;?></span>
-                                            <span class="mt-3 bc_text_16">expires <?php echo $date;?></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php }
-                        }?>
-                        
-                        <div class="no-print">
-                            <button class="btn bc_color_secondary_bg p-3 mr-2 mb-2" onclick="printPreview()">
-                            <span class=""><i class="fa fa-print" style="font-size:1em" aria-hidden="true"></i>&nbsp;Print</span>
-                            </button>                                                    
-                        </div>
+    <header id="HeaderZone"></header>
+    <main id="MainZone">
+    <?php 
+    global $post;
+    $promotion_type = get_post_meta(get_the_ID(), 'promotion_type', TRUE);
+    if($promotion_type == 'Builder'){
+        $date = get_post_meta( get_the_ID(), 'promotion_expiry_date1', true );
+        if(strtotime($date) >= strtotime(current_time('m/d/Y'))){
+            $title = get_post_meta( get_the_ID(), 'promotion_title1', true );
+            $color = get_post_meta( get_the_ID(), 'promotion_color', true );
+            $subheading = get_post_meta( get_the_ID(), 'promotion_subheading', true );
+            $footer_heading = get_post_meta( get_the_ID(), 'promotion_footer_heading', true ); ?>
+        <section class="coupons-print-page light-bg v1 no-padding transparent-bg ui-repeater" id="CouponsSystemPrintPageV1">
+            <div class="type-2 coupon-style" data-item="i" data-key="4093">
+                <div class="coupon-border pseudo-after info text-center vertical-padding-small side-padding-medium border-radius">
+                    <img class="bottom-margin margin-auto" src="https://www.sherlockair.com/images/logos/Logo.png" alt="Sherlock Plumbing, Heating and Air">
+                    <span class="title-font">
+                        <strong>
+                        <strong><?php echo $title; ?></strong><br>
+                        <span><?php echo $subheading;?></span>
+                        </strong>
+                    </span>
+                    <p class="top-margin-tiny"><?php echo $footer_heading;?></p>
+                    <div class="valid-from top-margin-tiny"> 
+                        <span>-  <?php echo $date;?></span>
                     </div>
-                    
-                </div>
+                </div>  
             </div>
+        </section>
+        <?php }
+            }?>
+        <div class="no-print text-center">
+            <button class="btn bc_color_secondary_bg p-3 mr-2 mb-2" onclick="printPreview()">
+            <span class=""><i class="fa fa-print" style="font-size:1em" aria-hidden="true"></i>&nbsp;Print</span>
+            </button>     
         </div>
     </main>
+
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/bme915n9vgu.2001241829564.js" defer data-require='["sa"]'></script>
 </body>
 </html>
-
-
