@@ -14,6 +14,7 @@ defined( 'ABSPATH' ) || exit;
 <html>
 
   <head>
+  <link rel="icon" href="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_favicon_upload',false, get_template_directory_uri().'/img/favicon.ico'); ?>">
     <?php wp_head(); ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
