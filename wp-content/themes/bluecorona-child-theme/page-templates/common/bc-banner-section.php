@@ -2,9 +2,9 @@
     <picture class="img-bg bg-position" role="presentation">
     <?php if (has_post_thumbnail() ) {
     $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id() ), 'single-post-thumbnail' ); ?>
-        <img data-src="<?php echo $image[0]; ?>">
+        <img src="<?php echo $image[0]; ?>">
         <?php }else{ ?>
-            <img data-src="<?php echo get_stylesheet_directory_uri();?>/assets/sub-banners/sub-banner-2.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/assets/sub-banners/sub-banner-2.jpg">
         <?php }?>
     </picture>
     <div class="main">
