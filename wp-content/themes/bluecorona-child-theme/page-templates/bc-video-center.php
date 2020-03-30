@@ -28,6 +28,11 @@ get_header();
     right: 1em;
 }
 </style>
+<main id="MainZone">
+<!-- Banner starts -->
+<?php get_template_part( 'page-templates/common/bc-banner-section' ); ?>
+<!-- Banner ends -->
+
 <section class="bread-crumbs v1 thin bg-box-none light-bg" id="BreadCrumbsV1Thin">
 	
 	<div class="main thin">
@@ -157,4 +162,5 @@ if ( $parent->have_posts() ) : ?>
 <?php endif; wp_reset_postdata(); ?>
 	</div>
 </section>
+</main>
 <?php get_footer()?>
