@@ -93,8 +93,8 @@ global $post;
         </header>
         <div class="flex-between-auto-responsive-margined flex-direction item-widths item-spacing align-items">
             <picture class="img pad-height-75 over-item box-flair-offset bg-position box-shadow border-radius" role="presentation">
-                <source media="(max-width: 500px)" srcset="https://www.sherlockair.com/assets/reviews/reviews-v2-img-mobile.jpg">
-                <img src="https://www.sherlockair.com/assets/reviews/reviews-v2-img.jpg" alt="">
+                <source media="(max-width: 500px)" srcset="<?php echo get_stylesheet_directory_uri();?>/assets/reviews/reviews-v2-img-mobile.jpg">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/assets/reviews/reviews-v2-img.jpg" alt="">
             </picture>
             <div class="bg-box side-padding vertical-padding-small under-item box-flair border-radius">
                 <div class="flair-border">
