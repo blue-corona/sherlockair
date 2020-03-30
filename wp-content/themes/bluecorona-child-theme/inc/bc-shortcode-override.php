@@ -139,8 +139,7 @@ function custom_testimonial_review_shortcode($atts , $content = null){
             <header class="text-align center-800" id="ReviewsV2Header">
              <h4>Top Rated Customer Reviews</h4>
              <strong>We are proud of the stellar feedback!</strong>
-             <svg role="presentation" class="header-flair">
-                <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
+             <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
              </svg>
             </header>
             <div class="flex-between-auto-responsive-margined flex-direction item-widths item-spacing align-items">
