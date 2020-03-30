@@ -52,8 +52,26 @@ defined( 'ABSPATH' ) || exit;
         <div class="top-bar bg-box side-padding-small flex-middle-between" id="HeaderV4TopBarContent">
           <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0">
             <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
+          </div>          
+          <div class="container-fluid">
+            <div class="row text-center">
+              <div class="col">
+                <strong class="title-style-5 title-color-5 hide-1280">Residential Plumbing &amp; HVAC Experts</strong>
+              </div>
+              <div class="col">
+                <a class="btn v1" href="<?php echo get_home_url();?>/covid-19-safety-measures/">COVID-19 Safety Measures</a>
+              </div>
+              <div class="col">
+                <span id="HeaderV4_1">
+                  <a class="phone-link phone-number-style" href="tel:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?>"><span id="HeaderV4_3"><?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?></span></a>
+                </span>
+                <a class="search-link hide-500 btn-colors" href="<?php echo get_home_url();?>/search/" title="Search Our Site" aria-label="Search Our Site" style="display: inline-block; width: 2em;"><svg viewBox="0 0 24 24" title="Search Icon" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/site/5d1zpk6tjes.24.svg#search">
+                  <path d="M23.234 21.861L17.522 15.92c1.468-1.746 2.274-3.942 2.274-6.23c0-5.343-4.347-9.69-9.69-9.69s-9.69 4.347-9.69 9.69s4.347 9.69 9.69 9.69c2.006 0 3.918-0.604 5.552-1.754l5.756 5.986c0.24 0.25 0.564 0.387 0.91 0.387c0.328 0 0.639-0.126 0.876-0.352C23.7 23.164 23.716 22.364 23.234 21.861zM10.104 2.529c3.95 0 7.163 3.213 7.163 7.163s-3.213 7.163-7.163 7.163s-7.163-3.213-7.163-7.163S6.156 2.529 10.104 2.529z"></path>
+                </svg></a>
+              </div>              
+            </div>
           </div>
-          <strong class="title-style-5 title-color-5 hide-1280">Residential Plumbing &amp; HVAC Experts</strong>
+          <!-- <strong class="title-style-5 title-color-5 hide-1280">Residential Plumbing &amp; HVAC Experts</strong>
           <div class="flex-middle-end center-800 auto">
             <nav class="hide-1024 secondary-nav" aria-label="Quick Links" id="HeaderV41QuickLinks">
               <ul class="flex-middle">
@@ -68,7 +86,7 @@ defined( 'ABSPATH' ) || exit;
           <a class="search-link hide-500 btn-colors" href="<?php echo get_home_url();?>/search/" title="Search Our Site" aria-label="Search Our Site"><svg viewBox="0 0 24 24" title="Search Icon" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/site/5d1zpk6tjes.24.svg#search">
           <path d="M23.234 21.861L17.522 15.92c1.468-1.746 2.274-3.942 2.274-6.23c0-5.343-4.347-9.69-9.69-9.69s-9.69 4.347-9.69 9.69s4.347 9.69 9.69 9.69c2.006 0 3.918-0.604 5.552-1.754l5.756 5.986c0.24 0.25 0.564 0.387 0.91 0.387c0.328 0 0.639-0.126 0.876-0.352C23.7 23.164 23.716 22.364 23.234 21.861zM10.104 2.529c3.95 0 7.163 3.213 7.163 7.163s-3.213 7.163-7.163 7.163s-7.163-3.213-7.163-7.163S6.156 2.529 10.104 2.529z"></path>
           </svg></a>
-          </div>
+          </div> -->
         </div>
         <div class="nav-bar flex-middle-between center-800" id="HeaderV4TopNavigation">
           <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0">
@@ -85,13 +103,6 @@ defined( 'ABSPATH' ) || exit;
               <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler bc_color_error_bg mr-md-4" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="fas text-white fa-bars"></span></button>
           </div>
         </div>
-        <?php if (is_page(6)) { ?>
-          <div class="notification v2 dark-bg text-center" id="NotificationBannerV2">
-            <div class="side-padding text-align content-style" id="NotificationBannerV2Notification">
-              <p><a href="/covid-19-safety-measures/" target="_blank">AT SHERLOCK PLUMBING, HEATING AND AIR, THE HEALTH AND SAFETY OF OUR CUSTOMERS IS OUR TOP PRIORITY, NOT ONLY DURING THESE CONCERNING TIMES WITH THE SPREAD OF COVID-19, BUT ALWAYS. OUR TEAM IS PREPARED TO CONTINUE DOING BUSINESS AS USUAL WHILE FOLLOWING THE CDC GUIDELINES TO NAVIGATE THIS SITUATION AS A SAFELY AS POSSIBLE FOR CUSTOMERS AND EMPLOYEES. CLICK HERE TO LEARN MORE</a></p>
-            </div>
-          </div>
-        <?php } ?>
       </div>
       <script id="Process_HeaderV4" type="text/javascript" style="display:none;">
       window.Process && Process.Page(['Process_HeaderV4', 'HeaderV4_1', 'HeaderV4_2', 'HeaderV4_3', 'HeaderV4_4', 'HeaderV4_5', 'HeaderV4_6']);
