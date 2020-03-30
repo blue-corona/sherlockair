@@ -392,3 +392,12 @@ header#HeaderZone.sticky-header .header.transparent-bg {
 section.sub-banner.v1 {
   padding-top: 12%;
 }
+
+/*Subpages embedded video in text content */
+.content-video {
+  text-align: center;
+}
+
+.content-video iframe {
+  width: 100%;
+}
