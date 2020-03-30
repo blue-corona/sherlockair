@@ -16,7 +16,8 @@ defined( 'ABSPATH' ) || exit;
       <header class="text-align center-800" id="VideoV1Header">
          <h4>Carlsbad's Finest</h4>
          <strong>Get to know our team!</strong>
-         <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
+         <svg role="presentation" class="header-flair">
+            <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
          </svg>
       </header>
       <div class="video-con flex-auto-responsive flex-direction align-items item-widths item-spacing" data-item="i" data-key="109328">

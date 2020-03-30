@@ -2,7 +2,8 @@
    <header class="text-align" id="FooterV8Header">
       <h4>Contact Our Team Today</h4>
       <strong>Your plumbing, heating &amp; air professionals!</strong>
-      <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
+      <svg role="presentation" class="header-flair">
+         <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
       </svg>
    </header>
    <div class="bg-box border-radius side-padding vertical-padding-small flex-between-auto-responsive-margined flex-direction item-widths item-spacing align-items bottom-margin-large-negative">

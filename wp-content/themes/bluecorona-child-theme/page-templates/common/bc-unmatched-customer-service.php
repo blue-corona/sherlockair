@@ -16,13 +16,15 @@ defined( 'ABSPATH' ) || exit;
              <strong>
              The Sherlock Difference
              </strong>
-             <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
+             <svg role="presentation" class="header-flair">
+                <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
              </svg>
           </header>
           <ul class="values-list flex-wrap-grid-large-block-800-break-1024-auto-size-max-3 ui-repeater" id="ValuesV1List">
              <li class="flex-block-500 align-items center-500 auto side-padding-small vertical-padding-tiny bg-box border-radius-item" data-item="i" data-key="3422">
                 <span class="ico-con">
-                  <svg viewBox="0 0 24 24" class="values-icon" role="presentation" data-use="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#satisfaction">
+                  <svg viewBox="0 0 24 24" class="values-icon" role="presentation">
+                    <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#satisfaction"></use>
                   </svg>
                 </span>
                 <div class="info">
@@ -32,7 +34,8 @@ defined( 'ABSPATH' ) || exit;
              </li>
              <li class="flex-block-500 align-items center-500 auto side-padding-small vertical-padding-tiny bg-box border-radius-item" data-item="i" data-key="3421">
                 <span class="ico-con">
-                   <svg viewBox="0 0 24 24" class="values-icon" role="presentation" data-use="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#tech">
+                   <svg viewBox="0 0 24 24" class="values-icon" role="presentation">
+                      <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#tech"></use>
                    </svg>
                 </span>
                 <div class="info">
@@ -42,7 +45,8 @@ defined( 'ABSPATH' ) || exit;
              </li>
              <li class="flex-block-500 align-items center-500 auto side-padding-small vertical-padding-tiny bg-box border-radius-item" data-item="i" data-key="3420">
                 <span class="ico-con">
-                   <svg viewBox="0 0 24 24" class="values-icon" role="presentation" data-use="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#service_agreements">
+                   <svg viewBox="0 0 24 24" class="values-icon" role="presentation">
+                      <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#service_agreements"></use>
                    </svg>
                 </span>
                 <div class="info">
@@ -52,7 +56,8 @@ defined( 'ABSPATH' ) || exit;
              </li>
              <li class="flex-block-500 align-items center-500 auto side-padding-small vertical-padding-tiny bg-box border-radius-item" data-item="i" data-key="3419">
                 <span class="ico-con">
-                   <svg viewBox="0 0 24 24" class="values-icon" role="presentation" data-use="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#solutions">
+                   <svg viewBox="0 0 24 24" class="values-icon" role="presentation">
+                      <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.24.svg#solutions"></use>
                    </svg>
                 </span>
                 <div class="info">
