@@ -20,7 +20,7 @@
                         }?>
                     </strong>
                 </span>
-                <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></svg>
+                <svg role="presentation" class="header-flair"><use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use></svg>
             </div>  
         </div>  
     </div>

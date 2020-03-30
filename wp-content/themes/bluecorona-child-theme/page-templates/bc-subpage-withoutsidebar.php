@@ -18,7 +18,8 @@ get_header();?>
     <div class="main thin text-align">
         <header class="no-pad bottom-margin-tiny center-800" id="ContactSystemV2Header">
             <h1><?php the_title();?></h1>
-            <svg class="header-flair" role="presentation" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
+            <svg class="header-flair" role="presentation">
+            <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
             </svg>
         </header>
         <!-- The Content Starts -->
