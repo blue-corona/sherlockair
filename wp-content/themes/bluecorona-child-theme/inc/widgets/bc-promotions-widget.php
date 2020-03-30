@@ -50,9 +50,9 @@ public function widget( $args, $instance ) {
 			                  </strong>
 			                  <p class="title-style-5 title-color-5 top-margin-tiny no-bottom-margin description"><?php echo $footer_heading;?></p>
 			                  <div class="top-margin-tiny valid note-style">
-			                     <small>Valid till <?php echo $date;?></small>
+			                     <small>Valid until <?php echo $date;?></small>
 			                  </div>
-			                  <div class="top-margin-small auto full">
+			                  <div class="top-margin-small">
 			                     <a class="btn v1" href="<?php the_permalink(get_the_ID());?>" target="_blank">Print</a>
 			                  </div>
 			               </div>
