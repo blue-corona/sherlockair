@@ -143,7 +143,7 @@ if ( ! class_exists( 'Bluecorona_WP_Bootstrap_Navwalker' ) ) {
 
 			// Add some additional default classes to the item.
 			$classes[] = 'menu-item-' . $item->ID;
-			$classes[] = 'nav-item m-auto p-0';
+			$classes[] = 'nav-item p-0';
 
 			// Allow filtering the classes.
 			$classes = apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args, $depth );
@@ -242,7 +242,7 @@ if ( ! class_exists( 'Bluecorona_WP_Bootstrap_Navwalker' ) ) {
 			 */
 			$icon_html = '';
 			if ( isset( $args->has_children ) && $args->has_children && $args->depth > 1 ) {
-				$icon_html = '&nbsp;<span class="float-right float-lg-none pr-3 pr-lg-0"><i class="fa fa-angle-down" aria-hidden="true"></i><span> ';
+				$icon_html = '&nbsp;<span class="bc-nav-dropdown-icon float-right float-lg-none pr-3 pr-lg-0"><i class="fa fa-angle-down" aria-hidden="true"></i><span> ';
 			} else {
 				if ( ! empty( $icon_class_string ) ) {
 					// Append an <i> with the icon classes to what is output before links.
@@ -273,6 +273,8 @@ if ( ! class_exists( 'Bluecorona_WP_Bootstrap_Navwalker' ) ) {
 					unset( $linkmod_classes[ $k ] );
 				}
 			}
+
+			$title = "<span class='nav-link-title'>".$title."</span>";
 
 			// Put the item contents into $output.
 			$item_output .= isset( $args->link_before ) ? $args->link_before .  $title . $icon_html . $args->link_after : '';

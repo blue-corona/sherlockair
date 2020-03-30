@@ -8540,7 +8540,7 @@ select {
     text-transform: capitalize;
     font-family: "Source Sans Pro"; }
     .bc_nav_container #navbarSupportedContent a svg {
-      display: none !important; }
+      color: #ffffff !important; }
     @media (hover: none), only screen and (max-width: 768px) {
       .bc_nav_container #navbarSupportedContent a:hover {
         background-color: #ffffff00 !important; } }
@@ -8549,7 +8549,9 @@ select {
       height: auto;
       max-height: 500px;
       overflow-x: hidden;
-      padding-bottom: 1.5em !important; } }
+      padding-bottom: 1.5em !important; }
+      .bc_nav_container #navbarSupportedContent > ul > li {
+        text-align: left; } }
   .bc_nav_container .navbar-nav li a {
     color: #ffffff !important; }
     .bc_nav_container .navbar-nav li a svg {
@@ -8670,6 +8672,9 @@ select {
   display: none; }
 
 @media (hover: none) {
+  .bc-nav-dropdown-icon {
+    width: 45px;
+    height: 45px; }
   nav.navbar-expand-lg {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

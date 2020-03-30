@@ -8,13 +8,15 @@
 		& > ul > li{
 			text-align: center;
 		}
+
 		a{
 			font-size: 1em;
 			font-weight: 400;
 			text-transform: capitalize;
 			font-family: $alternate_font_family_1;
 			svg{
-				display: none !important;
+				color: #ffffff !important;
+				
 			}
 			&:hover { 
 				@media (hover: none), only screen and (max-width: 768px) {
@@ -23,6 +25,9 @@
 			}
 		}
 		@media (hover: none), only screen and (max-width: 768px) {
+			& > ul > li{
+				text-align: left;
+			}
 			height: auto;
 		    max-height: 500px;
 		    overflow-x: hidden;
@@ -196,6 +201,11 @@
 
 //Overriding navbar-expand-lg behaviour for touch screen devices 
 @media (hover: none) {
+	.bc-nav-dropdown-icon{
+		width: 45px;
+		height: 45px;
+	}
+	
 	nav.navbar-expand-lg{
 		.m-lg-auto, &.m-lg-auto{
 			margin: 0px 0px !important;
