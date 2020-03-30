@@ -15,8 +15,7 @@ get_header();?>
 	<div class="main thin text-align">
 		<header class="no-pad bottom-margin-tiny center-800" id="ContactSystemV2Header">
 		<h1>Contact Sherlock Plumbing, Heating and Air Today!</h1>
-		<svg class="header-flair" role="presentation">
-		<use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
+		<svg class="header-flair" role="presentation" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
 		</svg>
 		</header>
 		<div class="content-style relative bottom-margin" id="ContactSystemV2Content">Regular Hours: 
@@ -53,13 +52,13 @@ get_header();?>
 						<ul class="relative">
 							<span id="ContactSystemV2_1" data-process="if" style="display:none" field="{Cookie:PPCP1/7602064167}">
 								<li class="flex-middle">
-									<svg viewBox="0 0 36 36" class="fit" title="Phone Icon" role="presentation"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/site/5d1zpk6tjes.36.svg#phone"></use></svg>
+									<svg viewBox="0 0 36 36" class="fit" title="Phone Icon" role="presentation" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/site/5d1zpk6tjes.36.svg#phone"></svg>
 									<span><span id="ContactSystemV2_2" data-process="replace" data-replace="{F:P3:Cookie:PPCP1/760-206-4167}"><?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?></span></span>
 								</li>
 							</span>
 							
 							<li class="flex-middle">
-								<svg viewBox="0 0 36 36" class="fit" title="Directions Arrow Icon" role="presentation"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/site/5d1zpk6tjes.36.svg#directions"></use></svg>
+								<svg viewBox="0 0 36 36" class="fit" title="Directions Arrow Icon" role="presentation" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/site/5d1zpk6tjes.36.svg#directions"></svg>
 								<a rel="nofollow noopener" target="_blank" href="https://maps.google.com/maps?f=q&amp;hl=en&amp;z=15&amp;q=2880%20Scott%20Street,Vista,CA,92081">Map &amp; Directions [+]</a>
 							</li>
 						</ul>

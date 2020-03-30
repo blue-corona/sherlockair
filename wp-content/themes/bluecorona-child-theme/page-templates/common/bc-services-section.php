@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) || exit;
           <header class="text-align center-800" id="ServicesV4Header">
               <h4>Quality Services&nbsp;</h4>
               <strong>There is no problem too big or small for our team to solve!</strong>
-              <svg role="presentation" class="header-flair"><use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use></svg>
+              <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></svg>
           </header>
           <ul class="services-list flex-center-wrap-grid-large-auto-size-max-4-break-1280-block-500 close-gap-500 ui-repeater" id="ServicesV4Services">
           <?php 
