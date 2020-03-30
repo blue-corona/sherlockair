@@ -8801,4 +8801,8 @@ header#HeaderZone.sticky-header .header.transparent-bg {
   -webkit-transition: none;
   transition: none; }
 
+/* Subpages main banner image sizing */
+section.sub-banner.v1 {
+  padding-top: 12%; }
+
 /*# sourceMappingURL=child-theme.css.map */
