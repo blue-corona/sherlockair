@@ -8718,10 +8718,16 @@ select {
       nav.navbar-expand-lg #navbarSupportedContent.navbar-collapse > ul {
         width: 100%; } }
 
+.hide-mar {
+  display: block !important; }
+
+.show-mar {
+  display: none !important; }
+
 @media (hover: none) {
-  .hide-on-touch {
+  .hide-mar {
     display: none !important; }
-  .show-on-touch {
+  .show-mar {
     display: block !important; } }
 
 .notification.v2 {

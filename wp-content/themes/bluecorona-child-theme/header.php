@@ -81,8 +81,8 @@ defined( 'ABSPATH' ) || exit;
           <div class="d-none d-lg-inline-block hide-mar w-100">
             <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
           </div>
-          <div class="d-inline-block d-lg-none show-mar">
-              <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler bc_color_error_bg" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="fas text-white fa-bars"></span></button>
+          <div class="d-inline-block show-mar d-lg-none">
+              <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler bc_color_error_bg mr-md-4" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="fas text-white fa-bars"></span></button>
           </div>
         </div>
         <?php if (is_page(6)) { ?>
