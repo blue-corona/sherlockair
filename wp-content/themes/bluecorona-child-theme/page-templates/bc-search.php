@@ -16,8 +16,8 @@ global $post;
     
     
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
-        <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/site-search/site-search-system-v1-bg-mobile.jpg">
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="/assets/site-search/site-search-system-v1-bg.jpg">
+        <source media="(max-width: 500px)" src="/assets/site-search/site-search-system-v1-bg-mobile.jpg">
+        <img src="/assets/site-search/site-search-system-v1-bg.jpg">
     </picture>  
     <div class="main thin relative">
         <header class="no-pad bottom-margin-tiny center-800 text-align" id="SiteSearchSystemV1Header">

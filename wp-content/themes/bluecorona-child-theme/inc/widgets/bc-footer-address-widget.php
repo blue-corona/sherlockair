@@ -21,8 +21,8 @@ class BC_Footer_Address_Widget extends WP_Widget {
         <div class="three-fifths flex-spaced-between-margined-auto-responsive">
             <div class="schema-info text-center two-fifths">
               <div class="business-info bottom-margin-tiny">
-                <img class="dark-logo bottom-logo" loading="lazy" style="margin-left: auto; margin-right: auto;" data-src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo.png">
-                <img class="light-logo bottom-logo" loading="lazy" style="margin-left: auto; margin-right: auto;" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" data-src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo2.png">
+                <img class="dark-logo bottom-logo" style="margin-left: auto; margin-right: auto;" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo.png">
+                <img class="light-logo bottom-logo" style="margin-left: auto; margin-right: auto;" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo2.png">
               </div>
               <a class="phone-link phone-number-style" href="tel:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?>" id="FooterV3_1"><span itemprop="telephone"><span id="FooterV3_2"><?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?></span></span></a>
               <div id="FooterV3OptionalBadge"></div>

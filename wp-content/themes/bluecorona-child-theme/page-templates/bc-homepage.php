@@ -11,17 +11,17 @@ get_header();
     <main id="MainZone"><section class="panel-group v1 relative no-padding light-bg bg-image bg-bottom-center" id="PanelGroupV5">
 
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
-        <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-mobile.jpg"/>
-        <source media="(max-width: 1024px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-tablet.jpg"/>
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg.jpg">
+        <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-mobile.jpg"/>
+        <source media="(max-width: 1024px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-tablet.jpg"/>
+        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg.jpg">
     </picture>
     <div class="box" id="PanelGroupV5Zone">
     
     <section class="mainstage v8 bg-box-none text-left col-50-50 no-padding bg-bottom-right vertical-middle dark-bg bg-image flow-reverse items-overlapped" id="MainstageV8" data-onvisible="show">
        <picture class="img-bg" role="presentation" data-role="picture">
-          <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-bg-mobile.jpg"/>
-          <source media="(max-width: 800px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-bg-tablet.jpg"/>
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-bg.jpg">
+          <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-bg-mobile.jpg"/>
+          <source media="(max-width: 800px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-bg-tablet.jpg"/>
+          <img src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-bg.jpg">
        </picture>
        <div class="flex-auto-responsive-margined flex-direction align-items item-spacing item-widths">
           <div class="over-item">
@@ -57,9 +57,9 @@ get_header();
              </div>
           </div>
           <picture class="under-item img pad-height-75 bg-position" role="presentation" data-role="picture">
-             <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-img-mobile.png"/>
-             <source media="(max-width: 800px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-img-tablet.png"/>
-             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-img.png">
+             <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-img-mobile.png"/>
+             <source media="(max-width: 800px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-img-tablet.png"/>
+             <img src="<?php echo get_stylesheet_directory_uri();?>/assets/mainstages/mainstage-v14-img.png">
           </picture>
        </div>
     </section>
@@ -68,8 +68,8 @@ get_header();
     
     
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
-        <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/contact/contact-v6-bg-mobile.jpg"/>
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/contact/contact-v6-bg.jpg">
+        <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/contact/contact-v6-bg-mobile.jpg"/>
+        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/contact/contact-v6-bg.jpg">
     </picture>
     <div class="main">
         <div class="flex-auto-responsive-margined-block-1024 align-items item-widths item-spacing flex-direction">
@@ -215,9 +215,9 @@ get_header();
 <section class="panel-group v1 relative no-padding dark-bg bg-image" id="PanelGroupV6">
     
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
-        <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v6-bg-mobile.jpg"/>
-        <source media="(max-width: 1024px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v6-bg-tablet.jpg"/>
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" loading="lazy" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v6-bg.jpg">
+        <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v6-bg-mobile.jpg"/>
+        <source media="(max-width: 1024px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v6-bg-tablet.jpg"/>
+        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v6-bg.jpg">
     </picture>
 
     <div class="box" id="PanelGroupV6Zone">
@@ -235,8 +235,8 @@ get_header();
     <!-- Blog Section Starts Here -->
 <section class="blog v7 light-bg text-left bg-box-like col-60-40 items-spaced bg-image" id="BlogV7" data-onvisible="show">
     <picture class="img-bg" role="presentation" data-role="picture">
-        <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-bg-mobile.jpg"/>
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-bg.jpg">
+        <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-bg-mobile.jpg"/>
+        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-bg.jpg">
     </picture>
     <div class="flex-auto-responsive-block-1024-margined flex-direction item-spacing item-widths align-items main">
         <div class="relative">
@@ -278,8 +278,8 @@ get_header();
             <div id="BlogV7BtnCon"></div>
         </div>
         <picture class="img pad-height-50 bg-position" role="presentation" data-role="picture">
-            <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-img-mobile.png"/>
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" role="presentation" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-img.png" data-size="1920">
+            <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-img-mobile.png"/>
+            <img src="<?php echo get_stylesheet_directory_uri();?>/assets/blogs/blog-v7-img.png" data-size="1920">
         </picture>
     </div>
 </section>

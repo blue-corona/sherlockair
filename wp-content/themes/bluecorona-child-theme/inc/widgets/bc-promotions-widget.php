@@ -40,8 +40,8 @@ public function widget( $args, $instance ) {
 					<li class="flex- coupon-style full border-radius" data-role="item" data-item="i" data-key="4093">
 			            <div class="bg-box info flex-column-middle-center side-padding-large vertical-padding relative coupon-border pseudo-after text-center full">
 			               <picture class="img-bg" role="presentation">
-			                  <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src=""/>
-			                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="">
+			                  <source media="(max-width: 500px)" src=""/>
+			                  <img src="">
 			               </picture>
 			               <div class="full side-padding-small">
 			                  <strong class="title">
