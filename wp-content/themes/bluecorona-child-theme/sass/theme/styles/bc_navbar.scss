@@ -15,11 +15,14 @@
 			text-transform: capitalize;
 			font-family: $alternate_font_family_1;
 			svg{
-				color: #ffffff !important;
-				
+				display: none !important;
 			}
-			&:hover { 
-				@media (hover: none), only screen and (max-width: 768px) {
+			@media (hover: none), only screen and (max-width: 768px) {
+				svg{
+					display: inline-block !important;
+					color: #ffffff !important;
+				}
+				&:hover { 
 					background-color: #ffffff00 !important; // Mobile nav bar Background
 				}
 			}
@@ -205,7 +208,7 @@
 		width: 45px;
 		height: 45px;
 	}
-	
+
 	nav.navbar-expand-lg{
 		.m-lg-auto, &.m-lg-auto{
 			margin: 0px 0px !important;

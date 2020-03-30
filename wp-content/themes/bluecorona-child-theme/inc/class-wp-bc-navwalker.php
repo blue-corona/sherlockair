@@ -242,7 +242,7 @@ if ( ! class_exists( 'Bluecorona_WP_Bootstrap_Navwalker' ) ) {
 			 */
 			$icon_html = '';
 			if ( isset( $args->has_children ) && $args->has_children && $args->depth > 1 ) {
-				$icon_html = '&nbsp;<span class="bc-nav-dropdown-icon float-right float-lg-none pr-3 pr-lg-0"><i class="fa fa-angle-down" aria-hidden="true"></i><span> ';
+				$icon_html = '&nbsp;<span class="bc-nav-dropdown-icon float-right float-lg-none pr-3 pr-lg-0"><i class="fa fa-angle-down float-right" aria-hidden="true"></i><span> ';
 			} else {
 				if ( ! empty( $icon_class_string ) ) {
 					// Append an <i> with the icon classes to what is output before links.

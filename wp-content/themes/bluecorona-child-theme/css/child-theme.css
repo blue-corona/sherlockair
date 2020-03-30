@@ -8540,8 +8540,11 @@ select {
     text-transform: capitalize;
     font-family: "Source Sans Pro"; }
     .bc_nav_container #navbarSupportedContent a svg {
-      color: #ffffff !important; }
+      display: none !important; }
     @media (hover: none), only screen and (max-width: 768px) {
+      .bc_nav_container #navbarSupportedContent a svg {
+        display: inline-block !important;
+        color: #ffffff !important; }
       .bc_nav_container #navbarSupportedContent a:hover {
         background-color: #ffffff00 !important; } }
   @media (hover: none), only screen and (max-width: 768px) {
