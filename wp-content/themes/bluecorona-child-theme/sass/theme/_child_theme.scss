@@ -334,16 +334,20 @@
   transform: scale(1, 1);
 }
 
-.overlap #HeaderZone {
+header#HeaderZone {
   transition: all 0.2s;
 }
 
-.overlap header#HeaderZone.sticky-header {
+header#HeaderZone.sticky-header {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #ffffff;
   transition: all 0.2s;
+}
+
+header#HeaderZone.sticky-header .header.transparent-bg {
+  background-color: transparent;
 }
 
 .sticky-header .bc_nav_container .navbar-nav > li > a {
