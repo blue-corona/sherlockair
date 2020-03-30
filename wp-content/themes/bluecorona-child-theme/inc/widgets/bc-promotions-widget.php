@@ -50,9 +50,9 @@ public function widget( $args, $instance ) {
 			                  </strong>
 			                  <p class="title-style-5 title-color-5 top-margin-tiny no-bottom-margin description"><?php echo $footer_heading;?></p>
 			                  <div class="top-margin-tiny valid note-style">
-			                     <small>Valid till <?php echo $date;?></small>
+			                     <small>Valid until <?php echo $date;?></small>
 			                  </div>
-			                  <div class="top-margin-small auto full">
+			                  <div class="top-margin-small">
 			                     <a class="btn v1" href="<?php the_permalink(get_the_ID());?>" target="_blank">Print</a>
 			                  </div>
 			               </div>
@@ -68,15 +68,13 @@ public function widget( $args, $instance ) {
 		</ul>
       <div class="scrolling-list-nav top-margin horizontal flex-middle-center relative text-center" data-role="arrows">
          <button title="View previous item" aria-label="View previous item" data-action="Prev">
-            <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left">
-            </svg>
+             <i class="fal fa-long-arrow-left" style="font-weight:18px;" aria-hidden="true"></i>
          </button>
          <span class="paging" data-role="paging">
          <span data-role="page-active"></span> / <span data-role="page-total"></span>
          </span>
          <button title="View next item" aria-label="View next item" data-action="Next">
-            <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right">
-            </svg>
+            <i class="fal fa-long-arrow-right" style="font-weight:18px;" aria-hidden="true"></i>
          </button>
       </div>
       <div id="SideCouponV1BtnCon">
