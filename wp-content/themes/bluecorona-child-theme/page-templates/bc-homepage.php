@@ -229,9 +229,9 @@ get_header();
         <!-- Testimonial Section ends -->
     </div>
 </section>
-    <!-- Promotion Serction starts -->
+    <!-- Promotion Section starts -->
     <?php echo do_shortcode('[bc-promotion]');?>
-    <!-- Promotion Serction ends -->
+    <!-- Promotion Section ends -->
     <!-- Blog Section Starts Here -->
 <section class="blog v7 light-bg text-left bg-box-like col-60-40 items-spaced bg-image" id="BlogV7" data-onvisible="show">
     <picture class="img-bg" role="presentation" data-role="picture">
