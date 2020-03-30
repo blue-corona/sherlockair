@@ -101,25 +101,14 @@ function custom_promotion_shortcode( $atts , $content = null ){
         </ul>
          <div class="scrolling-list-nav top-margin horizontal flex-middle-center relative text-center" data-role="arrows">
             <button title="View previous item" aria-label="View previous item" data-action="Prev">
-              <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left" viewBox="0 0 26 16">
-  <line class="line" x1="25.3" y1="8" x2="0.8" y2="8" style="stroke-dashoffset:25; stroke-dasharray: 25;"></line>
-  <line class="line" x1="8" y1="0.8" x2="0.7" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-  <line class="line" x1="8" y1="15.2" x2="0.7" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-</svg>
-             
+             <i class="fal fa-long-arrow-left" style="font-weight:18px;" aria-hidden="true"></i>
             </button>
 
             <span class="paging" data-role="paging">
             <span data-role="page-active"></span> / <span data-role="page-total"></span>
             </span>
             <button title="View next item" aria-label="View next item" data-action="Next">
-               
-                <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right" viewBox="0 0 26 16">
-              <line class="line" x1="0.7" y1="8" x2="25.2" y2="8" style="stroke-dashoffset:25; stroke-dasharray: 25;"></line>
-              <line class="line" x1="18" y1="15.2" x2="25.3" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-              <line class="line" x1="18" y1="0.8" x2="25.3" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-              </svg>
-
+                <i class="fal fa-long-arrow-right" style="font-weight:18px;" aria-hidden="true"></i>
             </button>
          </div>
       </div>
@@ -183,21 +172,13 @@ function custom_testimonial_review_shortcode($atts , $content = null){
                         </ul>
                         <div class="scrolling-list-nav overlap-padding top-margin-small horizontal flex-middle relative" data-role="arrows">
                         <button title="View previous item" aria-label="View previous item" data-action="Prev">
-                        <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left" viewBox="0 0 26 16">
-                        <line class="line" x1="25.3" y1="8" x2="0.8" y2="8" style="stroke-dashoffset:25; stroke-dasharray: 25;"></line>
-                        <line class="line" x1="8" y1="0.8" x2="0.7" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-                        <line class="line" x1="8" y1="15.2" x2="0.7" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-                      </svg> 
+                        <i class="fal fa-long-arrow-left" style="font-weight:18px;" aria-hidden="true"></i> 
                         </button>
                         <span class="paging" data-role="paging">
                         <span data-role="page-active"></span> / <span data-role="page-total"></span>
                         </span>
                         <button title="View next item" aria-label="View next item" data-action="Next">
-                        <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right" viewBox="0 0 26 16">
-                        <line class="line" x1="0.7" y1="8" x2="25.2" y2="8" style="stroke-dashoffset:25; stroke-dasharray: 25;"></line>
-                        <line class="line" x1="18" y1="15.2" x2="25.3" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-                        <line class="line" x1="18" y1="0.8" x2="25.3" y2="8" style="stroke-dashoffset:11; stroke-dasharray: 11;"></line>
-                        </svg>
+                        <i class="fal fa-long-arrow-right" style="font-weight:18px;" aria-hidden="true"></i>
                         </button>
                         </div>
                     </div>
