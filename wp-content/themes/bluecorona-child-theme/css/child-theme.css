@@ -8844,4 +8844,11 @@ section.sub-banner.v1 {
   #pmPulloutWidgetButton {
     display: none; } }
 
+/* Arrow hover effect sitewide */
+.scrolling-list-nav button:hover, .scrolling-list-nav button:hover {
+  background-color: transparent; }
+  .scrolling-list-nav button:hover svg, .scrolling-list-nav button:hover svg {
+    color: black;
+    fill: black; }
+
 /*# sourceMappingURL=child-theme.css.map */

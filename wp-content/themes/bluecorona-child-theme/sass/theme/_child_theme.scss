@@ -413,3 +413,14 @@ section.sub-banner.v1 {
     display: none;
   }
 }
+
+/* Arrow hover effect sitewide */
+.scrolling-list-nav {
+  button:hover, button:hover{
+    background-color: transparent;
+    svg{
+      color: black;
+      fill: black;    
+    }
+  }
+}

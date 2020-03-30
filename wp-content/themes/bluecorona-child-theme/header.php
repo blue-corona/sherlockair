@@ -45,7 +45,7 @@ defined( 'ABSPATH' ) || exit;
     <script src="https://kit.fontawesome.com/190ffc3b0c.js" crossorigin="anonymous"></script>
   </head>
 
-  <body <?php custom_body_class(); ?>>
+  <body <?php custom_body_class(); body_class();?>>
     <header id="HeaderZone">
       <div class="header v4 dark-bg bg-box-like transparent-bg" id="HeaderV4" universal_="true">
         <a name="SiteTop"></a>
