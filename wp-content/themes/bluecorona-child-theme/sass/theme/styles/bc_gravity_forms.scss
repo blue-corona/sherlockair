@@ -141,7 +141,18 @@
 
 			}	
 		}
+
+		.ginput_container_textarea ~ .validation_message--float{
+			margin-top: -13.2em;
+			@media (hover: none), only screen and (max-width: 768px) {
+				margin-top: -10.2em;
+			}
+		}
 	}
+
+	// .gform_footer{
+	// 	display: none !important;
+	// }
 }
 
 
@@ -247,6 +258,7 @@
 	}
 
 
+
 	.validation_message{
 		margin-top: -64px;
 		margin-left: 10px;
@@ -254,13 +266,12 @@
 		color: #eb0606 !important;
 		&--float{
 			@extend .validation_message;
-			margin-top: -65px;
+			margin-top: -4.5em;
 			font-size: 12px !important;
 			position: absolute;
 			padding: 0px 0px !important;
 		}
 	}
-
 
 	.gform_description{
 		line-height: 32px;

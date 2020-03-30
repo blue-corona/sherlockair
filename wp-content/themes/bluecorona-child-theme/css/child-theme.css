@@ -8381,6 +8381,15 @@ a.text-dark:hover, a.text-dark:focus {
     padding-top: 19.5px !important;
     padding-bottom: 19.5px !important; }
 
+.bc_contact_form_full ul .ginput_container_textarea ~ .validation_message--float {
+  margin-top: -13.2em; }
+  @media (hover: none), only screen and (max-width: 768px) {
+    .bc_contact_form_full ul .ginput_container_textarea ~ .validation_message--float {
+      margin-top: -10.2em; } }
+
+.bc_contact_form_full .gform_footer {
+  display: none !important; }
+
 .float_label {
   margin-top: 5px !important;
   font-size: 12px !important; }
@@ -8451,7 +8460,7 @@ a.text-dark:hover, a.text-dark:focus {
   pointer-events: none;
   color: #eb0606 !important; }
   .gform_wrapper .validation_message--float {
-    margin-top: -65px;
+    margin-top: -4.5em;
     font-size: 12px !important;
     position: absolute;
     padding: 0px 0px !important; }
