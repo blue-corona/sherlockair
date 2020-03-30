@@ -43,10 +43,16 @@ defined( 'ABSPATH' ) || exit;
   </head>
 
   <body <?php custom_body_class(); ?>>
+    <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0;">
+      <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
+    </div>
     <header id="HeaderZone">
       <div class="header v4 dark-bg bg-box-like transparent-bg" id="HeaderV4" universal_="true">
         <a name="SiteTop"></a>
         <div class="top-bar bg-box side-padding-small flex-middle-between" id="HeaderV4TopBarContent">
+          <div class="d-block d-lg-none show-mar position-absolute w-100 h-100" style="top: 0; left:0;">
+            <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
+          </div>
           <strong class="title-style-5 title-color-5 hide-1280">Residential Plumbing &amp; HVAC Experts</strong>
           <div class="flex-middle-end center-800 auto">
             <nav class="hide-1024 secondary-nav" aria-label="Quick Links" id="HeaderV41QuickLinks">
@@ -70,7 +76,12 @@ defined( 'ABSPATH' ) || exit;
             <img class="dark-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo.png">
             <img class="light-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo2.png">
           </a>
-          <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
+          <div class="d-none d-lg-inline-block hide-mar w-100">
+            <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
+          </div>
+          <div class="d-inline-block d-lg-none show-mar">
+              <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler bc_color_error_bg" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="fas text-white fa-bars"></span></button>
+          </div>
         </div>
         <?php if (is_page(6)) { ?>
           <div class="notification v2 dark-bg text-center" id="NotificationBannerV2">
