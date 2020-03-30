@@ -41,8 +41,7 @@ get_header();
                       <em class="title-color-2 subtitle">
                       Sherlock Plumbing, Heating &amp; Air
                       </em>
-                      <svg role="presentation" class="header-flair">
-                         <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
+                      <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
                       </svg>
                       <p class="title-style-5 title-color-5 bottom-margin-small">
                          Proudly serving customers in Vista, Carlsbad, Oceanside, Encinitas, San Marcos, and surrounding cities in North San Diego County since 2002 with exceptional service.&nbsp; &nbsp; &nbsp;
@@ -118,7 +117,7 @@ get_header();
                     <header class="text-center" id="ContactV6Header">
                       <h4>Contact Us Today</h4>
                       <strong>Call us or complete the form below.</strong>
-                      <svg role="presentation" class="header-flair"><use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use></svg>
+                      <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></svg>
                     </header>
                     <div id="ContactV6Form" class="ui-repeater">
                         <fieldset data-item="i" data-key="">
@@ -242,7 +241,7 @@ get_header();
         <div class="relative">
             <header class="text-align center-800" id="BlogV7Header">
                 <h4>Read Our Blog</h4>
-                <svg role="presentation" class="header-flair"><use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use></svg>
+                <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></svg>
             </header>
             <?php 
             $args  = array( 'post_type' => 'post', 'posts_per_page' => 2, 'order'=> 'DESC','post_status'  => 'publish');
