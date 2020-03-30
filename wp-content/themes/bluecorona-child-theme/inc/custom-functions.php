@@ -95,28 +95,44 @@ function bc_get_theme_mod($setting, $key1 = false, $key2 = false, $default = fal
 add_shortcode( 'social-icons', 'bc_social_shortcode' );
 function bc_social_shortcode () {?>
         <li class="fit">
-            <a class="btn-colors social-link" href="https://www.facebook.com/sherlockair/" title="Facebook" aria-label="Facebook" target="_blank">
-                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#facebook"></svg> 
+            <a class="btn-colors social-link" href="https://www.facebook.com/sherlockair/" title="Facebook" aria-label="Facebook" target="_blank" rel="noopener">
+
+            <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/pxsy0eemvwl.36.svg#facebook">
+            <path d="M20.762 0C14.563 0 13.152 4.601 13.152 7.544L13.152 11.658L9.562 11.658L9.562 18.016L13.144 18.016C13.144 26.175 13.144 36 13.144 36L20.684 36C20.684 36 20.684 26.076 20.684 18.016L25.77 18.016L26.438 11.658L20.692 11.658L20.692 7.924C20.692 6.517 21.628 6.191 22.287 6.191L26.345 6.191L26.345 0.024L20.762 0Z"></path>
+            </svg>
             </a>
         </li>
         <li class="fit">
-            <a class="btn-colors social-link" href="https://www.bbb.org/us/ca/vista/profile/air-conditioning-repair/sherlock-plumbing-heating-air-1126-15026872" title="BBB.org" aria-label="BBB.org" target="_blank">
-                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#bbb"></svg>
+            <a class="btn-colors social-link" href="https://www.bbb.org/us/ca/vista/profile/air-conditioning-repair/sherlock-plumbing-heating-air-1126-15026872" title="BBB.org" aria-label="BBB.org" target="_blank" rel="noopener">
+                                
+            <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/pxsy0eemvwl.36.svg#bbb">
+            <path d="M13.451 14.864L10.737 18.225a4.261 4.261 0 0 0 0.914 5.882l4.982 3.27c0.854 0.555 0.932 1.111 0.51 1.709l0.721 0.496l2.521-3.182A4.05 4.05-0.049 0 0 19.452 20.236L14.484 16.907a1.079 1.079 0 0 1-0.33-1.575L13.451 14.864ZM17.74 0L13.556 5.249a6.107 6.107 0 0 0 1.501 8.459l6.884 4.591a3.284 3.284 0 0 1 0.555 4.5l0.584 0.404l4.757-6.001a6.001 6.001 0 0 0-1.336-9L19.062 3.343a1.934 1.934 0 0 1-0.689-2.999L17.74 0ZM6.701 33.001H12.326L14.2 36h7.499l1.874-2.999H29.201l-1.874-1.501H8.575L6.701 33.001Z"></path>
+            </svg>
+            </a>
+
+        </li>
+        <li class="fit">
+            <a class="btn-colors social-link" href="https://www.instagram.com/sherlockhvac/" title="Instagram" aria-label="Instagram" target="_blank" rel="noopener">
+
+            <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/pxsy0eemvwl.36.svg#instagram">
+            <path d="M25.283 35.997L10.737 35.997C4.816 35.989 0.018 31.191 0.01 25.271L0.01 10.723C0.018 4.802 4.816 0.006 10.737-0.002L25.283-0.002C31.204 0.006 36.001 4.802 36.01 10.723L36.01 25.271C36.001 31.191 31.204 35.989 25.283 35.997ZM32.385 10.723C32.388 6.802 29.213 3.62 25.291 3.615C25.289 3.615 25.287 3.615 25.283 3.615L10.737 3.615C6.815 3.615 3.636 6.794 3.636 10.715L3.636 25.271C3.636 29.192 6.815 32.371 10.737 32.371L25.283 32.371C29.205 32.371 32.385 29.192 32.385 25.271L32.385 10.723ZM27.342 10.987C26.093 10.987 25.08 9.975 25.08 8.726C25.08 7.477 26.093 6.464 27.342 6.464C28.59 6.464 29.603 7.477 29.603 8.726C29.603 9.975 28.59 10.987 27.342 10.987ZM18.01 27.305C12.869 27.305 8.701 23.138 8.701 17.997C8.701 12.856 12.869 8.688 18.01 8.688C23.151 8.688 27.319 12.856 27.319 17.997C27.311 23.135 23.148 27.298 18.01 27.305ZM18.01 12.306C14.867 12.306 12.319 14.854 12.319 17.997C12.319 21.14 14.867 23.688 18.01 23.688C21.153 23.688 23.701 21.14 23.701 17.997C23.701 14.854 21.153 12.306 18.01 12.306Z"></path>
+            </svg>
             </a>
         </li>
         <li class="fit">
-            <a class="btn-colors social-link" href="https://www.instagram.com/sherlockhvac/" title="Instagram" aria-label="Instagram" target="_blank">
-                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#instagram"></svg>
+            <a class="btn-colors social-link" href="https://www.homeadvisor.com/rated.SherlockHeatingandAir.23896709.html" title="HomeAdvisor" aria-label="HomeAdvisor" target="_blank" rel="noopener">
+
+            <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/pxsy0eemvwl.36.svg#home_advisor">
+            <path d="M25.2 16.239l-10.8-10.501l-10.8 10.501H0L12.6 3.997h10.8L36 16.239ZM23.4 17.993h7.2v3.495A4.38 4.38 0 0 1 27 24.996H23.4v7.007l-7.2-7.007H9a4.38 4.38 0 0 1-3.6-3.495V17.993l9-8.743Z"></path>
+            </svg>
             </a>
+            
         </li>
         <li class="fit">
-            <a class="btn-colors social-link" href="https://www.homeadvisor.com/rated.SherlockHeatingandAir.23896709.html" title="HomeAdvisor" aria-label="HomeAdvisor" target="_blank">
-                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#home_advisor"></svg>
-            </a>
-        </li>
-        <li class="fit">
-            <a class="btn-colors social-link" href="https://www.yelp.com/biz/sherlock-plumbing-heating-and-air-vista" title="Yelp" aria-label="Yelp" target="_blank">
-                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#yelp"></svg>
+            <a class="btn-colors social-link" href="https://www.yelp.com/biz/sherlock-plumbing-heating-and-air-vista" title="Yelp" aria-label="Yelp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/pxsy0eemvwl.36.svg#yelp">
+            <path d="M4.353 24.667a1.628 1.628 0 0 0 1.371 0.889H5.815A45.635 45.635-0.063 0 0 11.736 23.791l2.412-0.752a1.779 1.779 0 0 0 1.311-1.688A1.853 1.853-0.063 0 0 14.299 19.421l-1.702-0.679h0C6.448 16.408 6.416 16.408 6.068 16.331a1.628 1.628 0 0 0-1.508 0.784a12.495 12.495 0 0 0-0.679 5.938A4.701 4.701-0.063 0 0 4.353 24.667Zm12.885-0.074a1.944 1.944 0 0 0-2.201 0.496l-1.086 1.266l-0.105 0.12C9.552 31.357 9.535 31.48 9.415 31.737a1.403 1.403 0 0 0-0.091 0.664a1.659 1.659 0 0 0 0.408 0.904A13.789 13.789-0.063 0 0 16.651 36.002l0.376 0a1.614 1.614 0 0 0 1.297-1.009c0.12-0.316 0.12-0.348 0.137-6.117 0 0 0-2.398 0-2.472A1.765 1.765-0.063 0 0 17.238 24.575ZM17.628 1.202v0a1.628 1.628 0 0 0-1.252-1.132C14.689-0.362 8.526 1.34 7.334 2.514a1.596 1.596 0 0 0-0.454 1.596c0.179 0.362 6.887 10.656 7.657 11.817s1.403 1.614 2.169 1.614a1.747 1.747 0 0 0 0.513-0.074c0.963-0.285 1.403-1.206 1.325-2.728C18.458 12.354 17.719 1.73 17.628 1.202Zm4.205 19.277a2.05 2.05 0 0 1-1.206-0.858a1.719 1.719 0 0 1 0-2.109l1.508-1.99c3.435-4.521 3.512-4.687 3.815-4.869a1.642 1.642 0 0 1 1.642 0a12.66 12.66 0 0 1 4.324 6.209v0.091a1.508 1.508 0 0 1-0.679 1.508c-0.302 0.179-0.362 0.225-6.768 1.733A9.225 9.225-0.063 0 1 21.833 20.462ZM31.586 25.721c-0.271-0.197-0.302-0.211-5.938-2.018l-2.398-0.784a1.853 1.853 0 0 0-2.064 0.619A1.825 1.825-0.063 0 0 21.035 25.735l0.963 1.508c3.361 5.305 3.498 5.516 3.783 5.727a1.508 1.508 0 0 0 0.935 0.316a1.899 1.899 0 0 0 0.693-0.137a12.646 12.646 0 0 0 4.792-5.938A1.508 1.508-0.063 0 0 31.586 25.721Z"></path>
+            </svg>
             </a>
         </li>
 <style type="text/css">
