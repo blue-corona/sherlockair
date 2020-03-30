@@ -401,3 +401,10 @@ section.sub-banner.v1 {
 .content-video iframe {
   width: 100%;
 }
+
+/* pulseM floating dot */
+@media (max-width: 991px) {
+  #pmPulloutWidgetButton {
+    display: none;
+  }
+}
