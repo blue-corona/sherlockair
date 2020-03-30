@@ -40,13 +40,22 @@ global $post;
                                             $color = get_post_meta( get_the_ID(), 'promotion_color', true );
                                             $subheading = get_post_meta( get_the_ID(), 'promotion_subheading', true );
                                             $footer_heading = get_post_meta( get_the_ID(), 'promotion_footer_heading', true ); ?>
-                                            <div class="col-md-4 col-lg-4 p-2 text-center">
-                                                <a href="<?php the_permalink(get_the_ID()); ?>" target="_blank">
-                                                    <div class="coupon-style border-radius bc_color_secondary bc_color_primary_bg p-1 mb-3" style="background-color: <?php echo $color;?>">
-                                                        <div class="py-4 px-3 pt-0 border-white bc_coupon_container bg-box info flex-column-middle-center side-padding-large vertical-padding-small relative coupon-border pseudo-after text-center full">
-                                                            <span class="pb-3  bc_font_alt_1 bc_text_36 d-block"><?php echo $title; ?></span>
-                                                            <span class="bc_text_30 d-block my-2"><?php echo $subheading;?></span>
-                                                            <span class="mt-3 bc_text_16">expires <?php echo $date;?></span>
+                                            <div class="col-md-6 col-sm-12 p-2 text-center">
+                                                <a href="<?php the_permalink(get_the_ID()); ?>" target="_blank" style="color: white; text-decoration: none; cursor: pointer;">
+                                                    <div class="bg-box coupon-style bc_color_secondary bc_color_primary_bg p-1 mb-3" style="background-color: <?php echo $color;?>; border-top-left-radius: 62px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 62px;">
+                                                        <div class="p-4 border-white bc_coupon_container coupon-border pseudo-after text-center">
+                                                                <div class="p-2">
+                                                                <strong class="title">
+                                                                <strong class="title-font"><?php echo $title ?></strong>
+                                                                <span class="title-style-2 title-color-2" style="color:#D9D9D9;"><?php echo $subheading;?></span>
+                                                                </strong>
+                                                                <div>
+                                                                    <small>Valid until <?php echo $date;?></small>
+                                                                </div>
+                                                                <div class="top-margin-small auto full">
+                                                                    <a class="btn v1" href="<?php the_permalink(get_the_ID());?>" target="_blank">Print</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </a>

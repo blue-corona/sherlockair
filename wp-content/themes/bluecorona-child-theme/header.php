@@ -40,6 +40,9 @@ defined( 'ABSPATH' ) || exit;
     <!-- for search page -->
 
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/xfe68wggbgd.2003121251140.js" async data-require='["j/poly","j/modernizr","j/ui.mobile","j/timezone","static","j/jquery.cookie","extensions","uri","behaviors","c/scrollbar","c/loading","m/date","form","adapter","v/jwplayer","video","a/bootstrap","svg"]'></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/190ffc3b0c.js" crossorigin="anonymous"></script>
   </head>
 
   <body <?php custom_body_class(); ?>>
