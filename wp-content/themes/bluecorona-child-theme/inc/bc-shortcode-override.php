@@ -54,7 +54,8 @@ function custom_promotion_shortcode( $atts , $content = null ){
             $subheading = get_post_meta( get_the_ID(), 'promotion_subheading', true );
             $footer_heading = get_post_meta( get_the_ID(), 'promotion_footer_heading', true ); ?>
 
-            <li class="flex- coupon-style third border-radius featured">
+            <!-- <li class="flex- coupon-style third border-radius featured" > -->
+            <li class="flex- coupon-style third border-radius featured" data-role="item" data-item="i" data-key="<?php echo get_the_ID(); ?>">
                <div class="bg-box info flex-column-middle-center side-padding-large vertical-padding relative coupon-border pseudo-after text-center full">
                   <picture class="img-bg" role="presentation">
                      <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src=""/>
@@ -99,7 +100,7 @@ function custom_promotion_shortcode( $atts , $content = null ){
         
         ?>
         </ul>
-         <div class="scrolling-list-nav top-margin horizontal flex-middle-center relative text-center" data-role="arrows" style="display: none;">
+         <div class="scrolling-list-nav top-margin horizontal flex-middle-center relative text-center" data-role="arrows">
             <button title="View previous item" aria-label="View previous item" data-action="Prev">
                <svg class="site-arrow">
                   <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left"></use>
