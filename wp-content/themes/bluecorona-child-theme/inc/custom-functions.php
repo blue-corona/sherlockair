@@ -96,27 +96,27 @@ add_shortcode( 'social-icons', 'bc_social_shortcode' );
 function bc_social_shortcode () {?>
         <li class="fit">
             <a class="btn-colors social-link" href="https://www.facebook.com/sherlockair/" title="Facebook" aria-label="Facebook" target="_blank">
-                <svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#facebook"></use></svg> 
+                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#facebook"></svg> 
             </a>
         </li>
         <li class="fit">
             <a class="btn-colors social-link" href="https://www.bbb.org/us/ca/vista/profile/air-conditioning-repair/sherlock-plumbing-heating-air-1126-15026872" title="BBB.org" aria-label="BBB.org" target="_blank">
-                <svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#bbb"></use></svg>
+                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#bbb"></svg>
             </a>
         </li>
         <li class="fit">
             <a class="btn-colors social-link" href="https://www.instagram.com/sherlockhvac/" title="Instagram" aria-label="Instagram" target="_blank">
-                <svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#instagram"></use></svg>
+                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#instagram"></svg>
             </a>
         </li>
         <li class="fit">
             <a class="btn-colors social-link" href="https://www.homeadvisor.com/rated.SherlockHeatingandAir.23896709.html" title="HomeAdvisor" aria-label="HomeAdvisor" target="_blank">
-                <svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#home_advisor"></use></svg>
+                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#home_advisor"></svg>
             </a>
         </li>
         <li class="fit">
             <a class="btn-colors social-link" href="https://www.yelp.com/biz/sherlock-plumbing-heating-and-air-vista" title="Yelp" aria-label="Yelp" target="_blank">
-                <svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#yelp"></use></svg>
+                <svg viewBox="0 0 36 36" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#yelp"></svg>
             </a>
         </li>
 <style type="text/css">

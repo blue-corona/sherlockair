@@ -36,8 +36,7 @@ function custom_promotion_shortcode( $atts , $content = null ){
       <header class="text-align center-800" id="CouponV2Header">
          <h4>Seasonal Savings</h4>
          <strong>These specials offers wont last long!</strong>
-         <svg role="presentation" class="header-flair">
-            <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header"></use>
+         <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
          </svg>
       </header>
       <div id="CouponV2List" class="ui-repeater" data-role="container">
@@ -102,16 +101,14 @@ function custom_promotion_shortcode( $atts , $content = null ){
         </ul>
          <div class="scrolling-list-nav top-margin horizontal flex-middle-center relative text-center" data-role="arrows">
             <button title="View previous item" aria-label="View previous item" data-action="Prev">
-               <svg class="site-arrow">
-                  <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left"></use>
+               <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left">
                </svg>
             </button>
             <span class="paging" data-role="paging">
             <span data-role="page-active"></span> / <span data-role="page-total"></span>
             </span>
             <button title="View next item" aria-label="View next item" data-action="Next">
-               <svg class="site-arrow">
-                  <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right"></use>
+               <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right">
                </svg>
             </button>
          </div>
@@ -162,8 +159,7 @@ function custom_testimonial_review_shortcode($atts , $content = null){
                             ?>
                             <li class="full" data-role="item" data-item="i" data-key="137500">
                                 <blockquote class="overlap-padding">
-                                   <svg viewBox="0 0 36 36" class="quote-icon bottom-margin-tiny" role="presentation" title="Quote Icon">
-                                      <use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.36.svg#quotes"></use>
+                                   <svg viewBox="0 0 36 36" class="quote-icon bottom-margin-tiny" role="presentation" title="Quote Icon" data-use="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.36.svg#quotes">
                                    </svg>
                                    <strong class="title-style-2 title-color-2"><?php echo $title;?></strong> 
                                    <p class="caption">&ldquo;<?php echo $message; ?>&rdquo;</p>
@@ -177,16 +173,14 @@ function custom_testimonial_review_shortcode($atts , $content = null){
                         </ul>
                         <div class="scrolling-list-nav overlap-padding top-margin-small horizontal flex-middle relative" data-role="arrows">
                         <button title="View previous item" aria-label="View previous item" data-action="Prev">
-                        <svg class="site-arrow">
-                        <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left"></use>
+                        <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left">
                         </svg>
                         </button>
                         <span class="paging" data-role="paging">
                         <span data-role="page-active"></span> / <span data-role="page-total"></span>
                         </span>
                         <button title="View next item" aria-label="View next item" data-action="Next">
-                        <svg class="site-arrow">
-                        <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right"></use>
+                        <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right">
                         </svg>
                         </button>
                         </div>

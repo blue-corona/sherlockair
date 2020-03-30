@@ -68,16 +68,14 @@ public function widget( $args, $instance ) {
 		</ul>
       <div class="scrolling-list-nav top-margin horizontal flex-middle-center relative text-center" data-role="arrows">
          <button title="View previous item" aria-label="View previous item" data-action="Prev">
-            <svg class="site-arrow">
-               <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left"></use>
+            <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-left">
             </svg>
          </button>
          <span class="paging" data-role="paging">
          <span data-role="page-active"></span> / <span data-role="page-total"></span>
          </span>
          <button title="View next item" aria-label="View next item" data-action="Next">
-            <svg class="site-arrow">
-               <use href="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right"></use>
+            <svg class="site-arrow" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#arrow-right">
             </svg>
          </button>
       </div>
