@@ -14,7 +14,6 @@ defined( 'ABSPATH' ) || exit;
 <html>
 
   <head>
-  <link rel="icon" href="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_favicon_upload',false, get_template_directory_uri().'/img/favicon.ico'); ?>">
     <?php wp_head(); ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,14 +43,11 @@ defined( 'ABSPATH' ) || exit;
   </head>
 
   <body <?php custom_body_class(); ?>>
-    <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0;">
-      <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
-    </div>
     <header id="HeaderZone">
       <div class="header v4 dark-bg bg-box-like transparent-bg" id="HeaderV4" universal_="true">
         <a name="SiteTop"></a>
         <div class="top-bar bg-box side-padding-small flex-middle-between" id="HeaderV4TopBarContent">
-          <div class="d-block d-lg-none show-mar position-absolute w-100 h-100" style="top: 0; left:0;">
+          <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0">
             <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
           </div>
           <strong class="title-style-5 title-color-5 hide-1280">Residential Plumbing &amp; HVAC Experts</strong>
@@ -73,9 +69,12 @@ defined( 'ABSPATH' ) || exit;
           </div>
         </div>
         <div class="nav-bar flex-middle-between center-800" id="HeaderV4TopNavigation">
+          <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0">
+            <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
+          </div>
           <a class="top-logo fit side-padding-small vertical-padding-tiny max-logo" href="<?php echo get_home_url();?>">
-            <img class="sticky-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/color-logo.png">
-            <img class="default-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo2.png">
+            <img class="dark-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo.png">
+            <img class="light-logo" loading="lazy" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo2.png">
           </a>
           <div class="d-none d-lg-inline-block hide-mar w-100">
             <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>

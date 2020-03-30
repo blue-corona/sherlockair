@@ -8531,8 +8531,7 @@ select {
   background-color: rgba(250, 250, 250, 0); }
   @media (hover: none), only screen and (max-width: 768px) {
     .bc_nav_container {
-      background-color: #00395e;
-      padding-bottom: 1.5em !important; } }
+      background-color: #00395e; } }
   .bc_nav_container #navbarSupportedContent > ul > li {
     text-align: center; }
   .bc_nav_container #navbarSupportedContent a {
@@ -8549,7 +8548,8 @@ select {
     .bc_nav_container #navbarSupportedContent {
       height: auto;
       max-height: 500px;
-      overflow-x: hidden; } }
+      overflow-x: hidden;
+      padding-bottom: 1.5em !important; } }
   .bc_nav_container .navbar-nav li a {
     color: #ffffff !important; }
     .bc_nav_container .navbar-nav li a svg {
@@ -8634,10 +8634,10 @@ select {
   height: 100%;
   padding: 0px 0px !important; }
   .navbar-nav > li > a {
-    padding: 2.3rem 1rem !important; }
+    padding: 2.3rem 0.5rem !important; }
     @media (hover: none) {
       .navbar-nav > li > a {
-        padding: 0.5rem 1rem !important; } }
+        padding: 0.5rem 0.5rem !important; } }
 
 .dropdown li {
   padding: 0rem 0rem; }
@@ -8793,6 +8793,9 @@ header#HeaderZone.sticky-header .header.transparent-bg {
   -webkit-transition: none;
   -webkit-transition: none;
   transition: none; }
+  @media (hover: none), only screen and (max-width: 768px) {
+    .sticky-header .bc_nav_container .navbar-nav > li > a {
+      color: #ffffff !important; } }
 
 .sticky-header #HeaderV4TopBarContent, .sticky-header #NotificationBannerV2 {
   display: none; }

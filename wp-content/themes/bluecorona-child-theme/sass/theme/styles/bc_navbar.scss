@@ -3,7 +3,6 @@
 	background-color: rgba(250, 250, 250, 0); // Nav bar Background
 	@media (hover: none), only screen and (max-width: 768px) {
 		background-color: $primary_color; // Mobile nav bar Background
-		padding-bottom: 1.5em !important;
 	}
 	#navbarSupportedContent{
 		& > ul > li{
@@ -27,6 +26,7 @@
 			height: auto;
 		    max-height: 500px;
 		    overflow-x: hidden;
+		    padding-bottom: 1.5em !important;
 		}
 	}
 
@@ -144,9 +144,9 @@
 		height:100%;
 		padding: 0px 0px !important;
 		& > a{
-			padding:2.3rem 1rem !important;
+			padding:2.3rem 0.5rem !important;
 			@media (hover: none){
-				padding:0.5rem 1rem !important;
+				padding:0.5rem 0.5rem !important;
 			}
 		}
 	}

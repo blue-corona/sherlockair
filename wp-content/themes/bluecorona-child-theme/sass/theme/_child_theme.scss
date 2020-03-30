@@ -358,6 +358,9 @@ header#HeaderZone.sticky-header .header.transparent-bg {
   -ms-transition: none;
   -o-transition: none;
   transition: none;
+  @media (hover: none), only screen and (max-width: 768px) {
+  	color: #ffffff !important;
+  }
 }
 
 .sticky-header #HeaderV4TopBarContent, .sticky-header #NotificationBannerV2 {
