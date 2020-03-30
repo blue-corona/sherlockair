@@ -69,6 +69,7 @@ foreach ( $theme_customizer_includes as $file ) {
 
 function cc_mime_types($mimes) {
 $mimes['svg'] = 'image/svg+xml';
+$mimes['ico'] = 'image/x-icon';
 return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');

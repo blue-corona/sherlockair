@@ -287,15 +287,15 @@
   padding-bottom: 8%;
   padding-left: calc(4% * 2);
   padding-right: calc(4% * 2);
+  margin-bottom: 8%;
 }
 
 #SideZone .gform_widget .gform_footer {
   text-align: left;
 }
 
-
-
-#SideZone .gform_widget .gform_footer #gform_submit_button_2 {
+/* gravity form submit buttons */
+#SideZone .gform_widget .gform_footer #gform_submit_button_2, #gform_submit_button_6, #gform_submit_button_1 {
   background-color: #842F3F;
   color: #F5F9FA;
   position: relative;
@@ -312,8 +312,80 @@
   text-transform: none;
 }
 
-#SideZone .gform_widget .gform_footer #gform_submit_button_2:hover {
+#SideZone .gform_widget .gform_footer #gform_submit_button_2:hover, #gform_submit_button_6:hover, #gform_submit_button_1:hover {
   color: #F5F9FA;
   background-color: #3F3F3F;
   border-radius: 0 1.5em 0 1.5em!important;
+}
+
+#SideNavV1 header a:hover {
+  cursor: auto;
+}
+
+#SideNavV1 a:hover {
+  text-decoration: none;
+}
+
+.reviews-system.v1 .rating-icons {
+  color: #FFD80A;
+}
+
+.flair-1 {
+  transform: scale(1, 1);
+}
+
+header#HeaderZone {
+  transition: all 0.2s;
+}
+
+header#HeaderZone.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  transition: all 0.2s;
+}
+
+header#HeaderZone.sticky-header .header.transparent-bg {
+  background-color: transparent;
+}
+
+.sticky-header .bc_nav_container .navbar-nav > li > a {
+  color: #842F3F!important;
+  -webkit-transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.sticky-header #HeaderV4TopBarContent, .sticky-header #NotificationBannerV2 {
+  display: none;
+}
+
+.sticky-logo {
+  display: none;
+}
+
+.sticky-header .default-logo {
+  display: none;
+}
+
+.sticky-header .sticky-logo {
+  display: block;
+}
+
+.bc_nav_container #navbarSupportedContent a {
+  -webkit-transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/* Subpages main banner image sizing */
+section.sub-banner.v1 {
+  padding-top: 12%;
 }

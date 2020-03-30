@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) || exit;
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/a2d466f0-967f-0135-c594-06a9ed4ca31b.js" defer></script>
 <script type="text/javascript">rrequire('m/site-header',function(){$('#HeaderV4TopNavigation').siteHeader();});</script>
 <script type="text/javascript">rrequire('form',function(){$('#Form_ContactSystemV2').html5form();});</script>
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/ejn8p62h7wg.2001241829564.js" defer data-require='["sa"]'></script>
+<!-- <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/ejn8p62h7wg.2001241829564.js" defer data-require='["sa"]'></script> -->
 <?php wp_footer(); ?>
 
 </body>

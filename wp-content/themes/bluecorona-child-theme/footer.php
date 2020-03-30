@@ -58,6 +58,26 @@ rrequire('m/scrolling-list',function(){$('#SideCouponV1List').scrollingList();})
     </div>
   </div>
 </div>
+
+<script>
+  window.onscroll = function() {
+    stickyHeader();
+  };
+
+  let header = document.getElementById("HeaderZone");
+  let sticky = header.offsetTop;
+
+  function stickyHeader() {
+    if (window.pageYOffset > 1) {
+      console.log('scroll!')
+      header.classList.add("sticky-header");
+    } else {
+      header.classList.remove("sticky-header");
+    }
+  }
+</script>
+
+
 <?php wp_footer(); ?>
 </body>
 </html>
