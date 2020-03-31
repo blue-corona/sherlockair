@@ -23,19 +23,19 @@ get_header();
 			<nav class="relative bg-box border-radius-item">
 				<ol class="flex-middle">
 					<li class="flex-middle relative"><a title="Go Home" aria-label="Go Home" href="/">
-					<svg viewBox="0 0 36 36" alt="Home Icon" role="presentation"><use data-href="<?php echo get_stylesheet_directory_uri();?>/cms/svg/site/5d1zpk6tjes.36.svg#home"></use></svg></a></li>
+						<i class="fal fa-home-lg-alt"></i></a></li>
 					<li class="flex-middle relative">Blog</li>
 				</ol>
 			</nav>
 		</div>
 	</section>
-	<form method="get" id="bc_searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
+	<!-- <form method="get" id="bc_searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 		<span id="searchsubmit" name="submit">
         	<i aria-hidden="true" class="fa fa-search <?php echo $args['icon_color_class']; ?>"></i> &nbsp; 
         </span>
 		<input class="transparent-input" id="s" name="s" type="text"
 			placeholder="" value="<?php the_search_query(); ?>" style="">
-</form>
+	</form> -->
 
 	<section class="blog-system v1 light-bg bg-box-like text-left no-padding flow-reverse" id="BlogSystemV1">
 		<div id="TopZone"></div>
