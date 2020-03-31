@@ -8714,11 +8714,11 @@ select {
       nav.navbar-expand-lg #navbarSupportedContent.navbar-collapse > ul {
         width: 100%; } }
 
-.hide-mar {
-  display: block !important; }
-
-.show-mar {
-  display: none !important; }
+.hide-when-large {
+  display: inline-block; }
+  @media (hover: none), only screen and (min-width: 992px) {
+    .hide-when-large {
+      display: none !important; } }
 
 .show-when-small {
   display: none; }

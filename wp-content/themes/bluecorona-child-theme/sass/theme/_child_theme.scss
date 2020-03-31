@@ -259,15 +259,8 @@
 
 // .bc_geolocation_list_item a{ &:hover{ color: $primary_color; } }
 
-.hide-mar{
-    display: block !important;
-}
-.show-mar{
-  display: none !important;
-}
-
 .hide-when-large{
-  display:block;
+  display:inline-block;
   @media (hover: none), only screen and (min-width: 992px) {
     display: none !important;
   }
