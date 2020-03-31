@@ -145,5 +145,12 @@ jQuery(document).ready(function(){
     jQuery('.search-toggle').click(function(){
       jQuery('#nav-search-form').toggleClass('d-none');
     });
+    console.log('here');
+    jQuery("input#s").val();
+    console.log('after');
+    if(typeof jQuery("input#s").val() != "undefined" && jQuery("input#s").val() != "" ){
+      jQuery("#searchlabel").hide(); 
+    }
+
   });
 });

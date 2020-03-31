@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <form method="get" class="hide-mar" id="bc_searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
-		<input class="" id="s" name="s" type="text" placeholder="how can we help you today?" value="<?php the_search_query(); ?>">
+		<input class="" id="s" name="s" type="text" placeholder="how can we help you?" value="<?php the_search_query(); ?>">
 </form>
 <form method="get" class="show-mar" id="bc_searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 	<div class="mx-auto d-table">
