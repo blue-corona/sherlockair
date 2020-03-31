@@ -51,8 +51,8 @@ global $post;
 
 <section class="reviews-system v1 light-bg bg-box-like ui-repeater" id="ReviewSystemV1" data-onvisible="show">
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
-        <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/reviews/reviews-system-v1-bg-mobile.jpg"/>
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="/assets/reviews/reviews-system-v1-bg.jpg">
+        <source media="(max-width: 500px)" src="/assets/reviews/reviews-system-v1-bg-mobile.jpg"/>
+        <img src="/assets/reviews/reviews-system-v1-bg.jpg">
     </picture>  
     <div class="main">
         <ul class="flex-grid-large-wrap-block-800 close-gap-800 results-25">

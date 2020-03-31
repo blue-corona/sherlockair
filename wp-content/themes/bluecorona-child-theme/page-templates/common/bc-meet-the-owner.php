@@ -9,8 +9,8 @@ defined( 'ABSPATH' ) || exit;
 <!--  -->
 <section class="video v1 dark-bg vertical-middle bg-image bg-box-unlike text-left flow-reverse col-60-40 items-overlapped ui-repeater" id="VideoV1" data-onvisible="show">
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
-      <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/videos/video-v1-bg-mobile.jpg"/>
-      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/videos/video-v1-bg.jpg">
+      <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/videos/video-v1-bg-mobile.jpg"/>
+      <img src="<?php echo get_stylesheet_directory_uri();?>/assets/videos/video-v1-bg.jpg">
     </picture>
     <div class="main">
       <header class="text-align center-800" id="VideoV1Header">

@@ -14,8 +14,8 @@ defined( 'ABSPATH' ) || exit;
     ?>
   <section class="services v4 light-bg text-center bg-box-like bg-image" id="ServicesV4" data-onvisible="show">
       <picture class="img-bg bg-position" role="presentation" data-role="picture">
-          <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/services/services-v4-bg-mobile.jpg"/>
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/services/services-v4-bg.jpg">
+          <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/services/services-v4-bg-mobile.jpg"/>
+          <img src="<?php echo get_stylesheet_directory_uri();?>/assets/services/services-v4-bg.jpg">
       </picture>
       <div class="main">
           <header class="text-align center-800" id="ServicesV4Header">
@@ -37,9 +37,9 @@ defined( 'ABSPATH' ) || exit;
                               <?php 
                                 if (has_post_thumbnail() ) { 
                                   $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id() ), 'single-post-thumbnail' ); ?>
-                                  <img data-src="<?php echo $image[0]; ?>">
+                                  <img src="<?php echo $image[0]; ?>">
                                 <?php }else{ ?>
-                                    <img data-src="<?php echo get_stylesheet_directory_uri();?>/cms/thumbnails/00/483x362/images/air.jpg">
+                                    <img src="<?php echo get_stylesheet_directory_uri();?>/cms/thumbnails/00/483x362/images/air.jpg">
                               <?php }?>
                           </picture>
                       <span class="btn-style btn-colors full"><?php if(!empty($bc_button_title)){echo $bc_button_title;}?></span>

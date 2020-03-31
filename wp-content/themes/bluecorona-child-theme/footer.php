@@ -14,8 +14,8 @@ defined( 'ABSPATH' ) || exit;
 <footer id="FooterZone">
     <section class="footer v8 bg-box-like col-33-66 items-spaced text-center vertical-middle flow-reverse dark-bg bg-image svg-deco-top-curve-top-dark" id="FooterV8" universal_="true" itemscope="" itemtype="http://schema.org/HVACBusiness" data-onvisible="show">
         <picture class="img-bg bg-position" role="presentation" data-role="picture">
-            <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/footers/footer-v8-bg-mobile.jpg"/>
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" loading="lazy" alt="" title="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/footers/footer-v8-bg.jpg">
+            <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/footers/footer-v8-bg-mobile.jpg"/>
+            <img src="<?php echo get_stylesheet_directory_uri();?>/assets/footers/footer-v8-bg.jpg">
         </picture>
         <!-- contact our team section ends -->
         <?php get_template_part( 'page-templates/common/bc-contact-our-team'); ?>

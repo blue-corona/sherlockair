@@ -342,7 +342,7 @@ function bc_site_info_phone_number ( $atts ) {
     if(isset($atts['anchor'])){
         $anchor = $atts['anchor'];
     }
-    $tel = bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');
+    $tel = bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-295-5014');
     ob_start();
     if($anchor){
         echo "<a href='tel:$tel'>$tel</a>";

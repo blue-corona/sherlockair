@@ -29,8 +29,8 @@ function custom_promotion_shortcode( $atts , $content = null ){
         if ( $query->have_posts() ) : ?>
         <section class="coupon v2 light-bg items-touching text-center bg-image bg-box-unlike" id="CouponV2" data-onvisible="show" data-role="scroller">
            <picture class="img-bg bg-position" role="presentation" data-role="picture">
-              <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/coupons/coupons-v2-bg-mobile.jpg"/>
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/coupons/coupons-v2-bg.jpg">
+              <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/coupons/coupons-v2-bg-mobile.jpg"/>
+              <img src="<?php echo get_stylesheet_directory_uri();?>/assets/coupons/coupons-v2-bg.jpg">
            </picture>
    <div class="main">
       <header class="text-align center-800" id="CouponV2Header">
@@ -57,8 +57,8 @@ function custom_promotion_shortcode( $atts , $content = null ){
             <li class="flex- coupon-style third border-radius featured" data-role="item" data-item="i" data-key="<?php echo get_the_ID(); ?>">
                <div class="bg-box info flex-column-middle-center side-padding-large vertical-padding relative coupon-border pseudo-after text-center full">
                   <picture class="img-bg" role="presentation">
-                     <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src=""/>
-                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="">
+                     <source media="(max-width: 500px)" src=""/>
+                     <img src="">
                   </picture>
                   <div class="full side-padding-small relative">
                      <strong class="title">
@@ -140,8 +140,8 @@ function custom_testimonial_review_shortcode($atts , $content = null){
             </header>
             <div class="flex-between-auto-responsive-margined flex-direction item-widths item-spacing align-items">
             <picture class="img pad-height-75 over-item box-flair-offset bg-position box-shadow border-radius" role="presentation">
-            <source media="(max-width: 500px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/reviews/reviews-v2-alt-img-mobile.jpg"/>
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-src="<?php echo get_stylesheet_directory_uri();?>/assets/reviews/reviews-v2-alt-img.jpg">
+            <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/reviews/reviews-v2-alt-img-mobile.jpg"/>
+            <img src="<?php echo get_stylesheet_directory_uri();?>/assets/reviews/reviews-v2-alt-img.jpg">
             </picture>
              <div class="bg-box side-padding vertical-padding-small under-item box-flair border-radius">
                 <div class="flair-border">

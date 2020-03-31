@@ -18,7 +18,7 @@
 				<div class="img pad-height-50 fit full" role="presentation">
 					<?php if (has_post_thumbnail() ): 
 	                    $image = wp_get_attachment_image_src( get_post_thumbnail_id( ), 'single-post-thumbnail' );?>
-	                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="<?php the_title()?>" data-bg="<?php echo $image[0]; ?>">
+	                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="<?php the_title()?>" style="background-image: url('<?php echo $image[0]; ?>');">
 	                <?php endif; ?>
 				</div>
 				<div class="side-padding-large vertical-padding-tiny full">

@@ -259,13 +259,18 @@
 
 // .bc_geolocation_list_item a{ &:hover{ color: $primary_color; } }
 
-
+.hide-mar{
+    display: block !important;
+}
+.show-mar{
+  display: none !important;
+}
 
 @media (hover: none) {
-	.hide-on-touch{
+	.hide-mar{
 		display: none !important;
 	}
-	.show-on-touch{
+	.show-mar{
 		display: block !important;
 	}
 }
@@ -400,4 +405,27 @@ section.sub-banner.v1 {
 
 .content-video iframe {
   width: 100%;
+}
+
+/* pulseM floating dot */
+@media (max-width: 991px) {
+  #pmPulloutWidgetButton {
+    display: none;
+  }
+}
+
+/* Arrow hover effect sitewide */
+.scrolling-list-nav {
+  button:hover, button:hover{
+    background-color: transparent;
+    svg{
+      color: black;
+      fill: black;    
+    }
+  }
+}
+
+/*Announcement bar text */
+.announcmenet-bar-left strong{
+  font-size: 1.0em;
 }

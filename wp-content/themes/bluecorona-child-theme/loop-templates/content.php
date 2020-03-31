@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 		<div class="img pad-height-50 fit full" role="presentation">
 		<?php if (has_post_thumbnail() ): 
 			$image = wp_get_attachment_image_src( get_post_thumbnail_id( ), 'blogpost-thumbnail' );?>
-			<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php echo $image[0]; ?>" alt="post img" class=" img-responsive postImg">
+			<img src="<?php echo $image[0]; ?>" alt="post img" class=" img-responsive postImg">
 		<?php endif;?>
 			<!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/cms/thumbnails/34/480x240//images/blog/Heating-to-Cooling_iStock-639882424-2.jpg"> -->
 		</div>
