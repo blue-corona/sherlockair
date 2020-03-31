@@ -50,7 +50,7 @@ defined( 'ABSPATH' ) || exit;
       <div class="header v4 dark-bg bg-box-like transparent-bg" id="HeaderV4" universal_="true">
         <a name="SiteTop"></a>
         <div class="top-bar bg-box side-padding-small flex-middle-between" id="HeaderV4TopBarContent">
-          <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0; z-index: 3;">
+          <div class="show-when-small position-absolute w-100" style="top: 0; left:0; z-index: 3;">
             <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
           </div>          
           <div class="container-fluid">
@@ -90,7 +90,7 @@ defined( 'ABSPATH' ) || exit;
           </div> -->
         </div>
         <div class="nav-bar flex-middle-between center-800" id="HeaderV4TopNavigation">
-          <div class="d-block d-lg-none show-mar position-absolute w-100" style="top: 0; left:0; z-index: 3;">
+          <div class="show-when-small position-absolute w-100" style="top: 0; left:0; z-index: 3;">
             <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
           </div>
           <a class="top-logo fit side-padding-small vertical-padding-tiny max-logo" href="<?php echo get_home_url();?>">
@@ -100,7 +100,7 @@ defined( 'ABSPATH' ) || exit;
           <div class="d-none d-lg-inline-block hide-mar w-100">
             <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
           </div>
-          <div class="d-inline-block show-mar d-lg-none">
+          <div class="show-when-small">
               <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler bc_color_error_bg mr-md-4" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="fas text-white fa-bars"></span></button>
           </div>
         </div>
