@@ -8722,7 +8722,7 @@ select {
 
 .show-when-small {
   display: none; }
-  @media (hover: none), only screen and (max-width: 768px) {
+  @media (hover: none), only screen and (max-width: 991px) {
     .show-when-small {
       display: inline-block !important; } }
 

@@ -268,7 +268,7 @@
 
 .show-when-small{
   display:none;
-  @media (hover: none), only screen and (max-width: 768px) {
+  @media (hover: none), only screen and (max-width: 991px) {
     display: inline-block !important;
   }
 }
