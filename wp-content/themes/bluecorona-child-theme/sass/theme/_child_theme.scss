@@ -266,6 +266,13 @@
   display: none !important;
 }
 
+.hide-when-large{
+  display:block;
+  @media (hover: none), only screen and (min-width: 992px) {
+    display: none !important;
+  }
+}
+
 .show-when-small{
   display:none;
   @media (hover: none), only screen and (max-width: 991px) {
