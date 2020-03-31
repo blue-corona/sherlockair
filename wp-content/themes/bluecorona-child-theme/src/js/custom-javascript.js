@@ -89,11 +89,13 @@ jQuery(document).ready(function(){
 //Nav behaviour on touch screens
 jQuery(".nav-link").on('touchstart',function(e){
   e.stopPropagation();
-  // if(jQuery(e.target).is(".nav-link-title")){
+  if(jQuery(e.target).is(".nav-link-title")){
     window.location = this.getAttribute('href');
     
     return;
-  // }
+  }
+
+  return false;
 
   // if(jQuery(e.target).is("a")){
   //   return;
