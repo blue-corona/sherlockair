@@ -52,7 +52,7 @@ rrequire('m/scrolling-list',function(){$('#SideCouponV1List').scrollingList();})
         </button>
       </div>
       <div class="modal-body px-5 pb-5 col-md-10 offset-1">
-        <h1 id="disclaimerLabel" class="bc_color_black">Disclaimer</h1>
+        <span id="disclaimerLabel" class="bc_color_black" style="font-size: 36px !important;">Disclaimer</span>
             <p class="bc_color_black">The information on this website is for informational purposes only; it is deemed accurate but not guaranteed. It does not constitute professional advice. All information is subject to change at any time without notice. <a class="text-danger bc_text_bold" href="<?php echo get_site_url()?>/contact-us" target="_blank">Contact us</a> for complete details.</p>
       </div>
     </div>
