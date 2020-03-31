@@ -266,6 +266,13 @@
   display: none !important;
 }
 
+.show-when-small{
+  display:none;
+  @media (hover: none), only screen and (max-width: 768px) {
+    display: inline-block !important;
+  }
+}
+
 @media (hover: none) {
 	.hide-mar{
 		display: none !important;
