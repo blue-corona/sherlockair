@@ -130,7 +130,7 @@ if ( $parent->have_posts() ) : ?>
 							<?php } else { ?>
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Meet The Owner" title="Meet The Owner" style="background-image:url('https://www.sherlockair.com/cms/thumbnails/00/501x285/images/video-thumbnails/video.jpg')">
 							<?php } ?>
-							<!-- http://sherlockheatac.wpengine.com/wp-content/uploads/2020/03/03-Downstown_20171013011841-1-1.png -->
+							
 							<!-- https://www.sherlockair.com/cms/thumbnails/00/501x285/images/video-thumbnails/video.jpg -->
 							<span class="btn-style btn-colors flex-middle-center-inline">
 								<svg viewBox="0 0 36 36" title="Play"><use data-href="https://www.sherlockair.com/cms/svg/site/5d1zpk6tjes.36.svg#play"></use></svg>
