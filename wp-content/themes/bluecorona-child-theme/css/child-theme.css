@@ -8851,4 +8851,8 @@ section.sub-banner.v1 {
     color: black;
     fill: black; }
 
+/*Announcement bar text */
+.announcmenet-bar-left strong {
+  font-size: 1.0em; }
+
 /*# sourceMappingURL=child-theme.css.map */

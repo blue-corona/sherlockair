@@ -55,13 +55,13 @@ defined( 'ABSPATH' ) || exit;
           </div>          
           <div class="container-fluid">
             <div class="row text-center">
-              <div class="col">
-                <strong class="title-style-5 title-color-5 hide-1280">Residential Plumbing &amp; HVAC Experts</strong>
+              <div class="announcmenet-bar-left col-xl-4 d-none d-xl-block my-auto">
+                <strong class="title-style-5 title-color-5">Residential Plumbing &amp; HVAC Experts</strong>
               </div>
-              <div class="col">
+              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                 <a class="btn v1" href="<?php echo get_home_url();?>/covid-19-safety-measures/">COVID-19 Safety Measures</a>
               </div>
-              <div class="col">
+              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                 <span id="HeaderV4_1">
                   <a class="phone-link phone-number-style" href="tel:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?>"><span id="HeaderV4_3"><?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?></span></a>
                 </span>
