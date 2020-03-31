@@ -11,9 +11,9 @@ get_header();
     <main id="MainZone"><section class="panel-group v1 relative no-padding light-bg bg-image bg-bottom-center" id="PanelGroupV5">
 
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
-        <source media="(max-width: 500px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-mobile.jpg"/>
-        <source media="(max-width: 1024px)" src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-tablet.jpg"/>
-        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg.jpg">
+      <source media="(max-width: 500px)" srcset="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-mobile.jpg"/>
+      <source media="(max-width: 1024px)" srcset="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg-tablet.jpg"/>
+      <img src="<?php echo get_stylesheet_directory_uri();?>/assets/panel-groups/panel-group-v5-bg.jpg">
     </picture>
     <div class="box" id="PanelGroupV5Zone">
     

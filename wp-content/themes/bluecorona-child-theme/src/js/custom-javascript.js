@@ -89,26 +89,27 @@ jQuery(document).ready(function(){
 //Nav behaviour on touch screens
 jQuery(".nav-link").on('touchstart',function(e){
   e.stopPropagation();
-  if(jQuery(e.target).is(".nav-link-title")){
+  // if(jQuery(e.target).is(".nav-link-title")){
     window.location = this.getAttribute('href');
-    return false;
-  }
-
-  if(jQuery(e.target).is("a")){
+    
     return;
-  }
+  // }
 
-  if(jQuery(this).children('span').children('svg').hasClass("fa-angle-up")){
+  // if(jQuery(e.target).is("a")){
+  //   return;
+  // }
 
-    jQuery(this).children('span').children('svg').removeClass("fa-angle-up");
-    jQuery(this).children('span').children('svg').addClass("fa-angle-down");
-  }else{
-    jQuery(this).children('span').children('svg').addClass("fa-angle-up");
-    jQuery(this).children('span').children('svg').removeClass("fa-angle-down");
-  }
+  // if(jQuery(this).children('span').children('svg').hasClass("fa-angle-up")){
+
+  //   jQuery(this).children('span').children('svg').removeClass("fa-angle-up");
+  //   jQuery(this).children('span').children('svg').addClass("fa-angle-down");
+  // }else{
+  //   jQuery(this).children('span').children('svg').addClass("fa-angle-up");
+  //   jQuery(this).children('span').children('svg').removeClass("fa-angle-down");
+  // }
   
-  jQuery(this).parent('li').children('ul').toggle();
-  return false;
+  // jQuery(this).parent('li').children('ul').toggle();
+  // return false;
 
 });
 
@@ -137,4 +138,12 @@ jQuery(window).scroll(function() {
   } else {
     jQuery('.bc_announcement_bar').show();
   }
+});
+
+jQuery(document).ready(function(){
+  setTimeout(function(){
+    jQuery('.search-toggle').click(function(){
+      jQuery('#nav-search-form').toggleClass('d-none');
+    });
+  });
 });

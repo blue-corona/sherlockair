@@ -57,7 +57,7 @@ global $post;
                 <path d="M23.234 21.861L17.522 15.92c1.468-1.746 2.274-3.942 2.274-6.23c0-5.343-4.347-9.69-9.69-9.69s-9.69 4.347-9.69 9.69s4.347 9.69 9.69 9.69c2.006 0 3.918-0.604 5.552-1.754l5.756 5.986c0.24 0.25 0.564 0.387 0.91 0.387c0.328 0 0.639-0.126 0.876-0.352C23.7 23.164 23.716 22.364 23.234 21.861zM10.104 2.529c3.95 0 7.163 3.213 7.163 7.163s-3.213 7.163-7.163 7.163s-7.163-3.213-7.163-7.163S6.156 2.529 10.104 2.529z"></path></svg></label>
                 </form>
             </div>
-            <a href="javascript:void(0)" title="Search Our Site" class="btn v1">Search</a>
+            <a href="#" onclick="document.forms['bc_searchform'].submit();" title="Search Our Site" class="btn v1">Search</a>
         </div>
     </div>
 </div>

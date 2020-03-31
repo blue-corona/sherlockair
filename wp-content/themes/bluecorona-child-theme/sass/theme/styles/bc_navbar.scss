@@ -19,8 +19,9 @@
 			}
 			@media (hover: none), only screen and (max-width: 768px) {
 				svg{
-					display: inline-block !important;
-					color: #ffffff !important;
+					display: none !important;
+					// display: inline-block !important;
+					// color: #ffffff !important;
 				}
 				&:hover { 
 					background-color: #ffffff00 !important; // Mobile nav bar Background
@@ -28,9 +29,6 @@
 			}
 		}
 		@media (hover: none), only screen and (max-width: 768px) {
-			& > ul > li{
-				text-align: left;
-			}
 			height: auto;
 		    max-height: 500px;
 		    overflow-x: hidden;
@@ -205,8 +203,9 @@
 //Overriding navbar-expand-lg behaviour for touch screen devices 
 @media (hover: none) {
 	.bc-nav-dropdown-icon{
-		width: 45px;
-		height: 45px;
+		// width: 45px;
+		// height: 45px;
+		display: none;
 	}
 
 	nav.navbar-expand-lg{
