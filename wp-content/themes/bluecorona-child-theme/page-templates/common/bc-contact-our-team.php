@@ -12,8 +12,8 @@
          <img class="light-logo bottom-margin-tiny" alt="Sherlock Plumbing, Heating and Air" title="Sherlock Plumbing, Heating and Air" src="<?php echo get_stylesheet_directory_uri();?>/images/logos/Logo2.png">
          
             <div>
-               <a href="tel:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?>" class="phone-number-style">
-               <span itemprop="telephone"><span id="FooterV8_3"><?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-206-4167');?></span></span>
+               <a href="tel:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-295-5014');?>" class="phone-number-style">
+               <span itemprop="telephone"><span id="FooterV8_3"><?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-295-5014');?></span></span>
                </a>
             </div>
          
