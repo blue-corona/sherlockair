@@ -8640,6 +8640,9 @@ select {
   padding: 0px 0px !important; }
   .navbar-nav > li > a {
     padding: 2.3rem 0.5rem !important; }
+    @media (hover: none) {
+      .navbar-nav > li > a {
+        padding: 0rem 0rem !important; } }
 
 .dropdown li {
   padding: 0rem 0rem; }
