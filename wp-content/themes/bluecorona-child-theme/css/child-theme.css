@@ -8534,6 +8534,9 @@ select {
       background-color: #00395e; } }
   .bc_nav_container #navbarSupportedContent > ul > li {
     text-align: center; }
+    @media (hover: none), only screen and (max-width: 991px) {
+      .bc_nav_container #navbarSupportedContent > ul > li > ul {
+        display: none !important; } }
   .bc_nav_container #navbarSupportedContent a {
     font-size: 1em;
     font-weight: 400;

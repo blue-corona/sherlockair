@@ -7,6 +7,11 @@
 	#navbarSupportedContent{
 		& > ul > li{
 			text-align: center;
+			@media (hover: none), only screen and (max-width: 991px) {
+				& > ul{
+					display: none !important;
+				}
+			}
 		}
 
 		a{
