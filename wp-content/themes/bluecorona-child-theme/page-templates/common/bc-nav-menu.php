@@ -2,8 +2,8 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark d-table w-100 px-0">
             <div id="navbarSupportedContent" class="navbar-collapse collapse" style="">
-                <div class="float-right py-3 d-block show-mar d-lg-none">
-                    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler border-0" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+                <div class="float-right py-3 show-on-small">
+                    <button aria-controls="navbarSupportedContent" style="display: block !important" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler border-0" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
                         <em class="fa fa-times"></em>
                     </button>
                 </div>
