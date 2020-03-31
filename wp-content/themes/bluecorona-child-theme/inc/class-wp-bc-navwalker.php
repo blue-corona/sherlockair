@@ -189,7 +189,7 @@ if ( ! class_exists( 'Bluecorona_WP_Bootstrap_Navwalker' ) ) {
 				$atts['data-toggle']   = false;
 				$atts['aria-haspopup'] = 'true';
 				$atts['aria-expanded'] = 'false';
-				$atts['class']         = 'dropdown-toggle nav-link mx-0';
+				$atts['class']         = 'dropdown-toggle nav-link d-inline d-lg-block mx-0';
 				$atts['id']            = 'menu-item-dropdown-' . $item->ID;
 			} else {
 				$atts['href'] = ! empty( $item->url ) ? $item->url : '#';
@@ -197,7 +197,7 @@ if ( ! class_exists( 'Bluecorona_WP_Bootstrap_Navwalker' ) ) {
 				if ( $depth > 0 ) {
 					$atts['class'] = 'dropdown-item mx-0 px-0';
 				} else {
-					$atts['class'] = 'nav-link mx-0';
+					$atts['class'] = 'nav-link d-inline d-lg-block mx-0';
 				}
 			}
 
