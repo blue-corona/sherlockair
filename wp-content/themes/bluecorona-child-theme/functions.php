@@ -351,3 +351,8 @@ function bc_site_info_phone_number ( $atts ) {
     }
     return ob_get_clean();
 }
+
+function bc_custom_excerpt_length( $length ) {
+return 20;
+}
+add_filter( 'excerpt_length', 'bc_custom_excerpt_length', 999 );
