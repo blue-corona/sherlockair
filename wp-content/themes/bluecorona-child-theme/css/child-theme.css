@@ -8529,7 +8529,7 @@ select {
 
 .bc_nav_container {
   background-color: rgba(250, 250, 250, 0); }
-  @media (hover: none), only screen and (max-width: 768px) {
+  @media (hover: none), only screen and (max-width: 991px) {
     .bc_nav_container {
       background-color: #00395e; } }
   .bc_nav_container #navbarSupportedContent > ul > li {
@@ -8541,12 +8541,12 @@ select {
     font-family: "Source Sans Pro"; }
     .bc_nav_container #navbarSupportedContent a svg {
       display: none !important; }
-    @media (hover: none), only screen and (max-width: 768px) {
+    @media (hover: none), only screen and (max-width: 991px) {
       .bc_nav_container #navbarSupportedContent a svg {
         display: none !important; }
       .bc_nav_container #navbarSupportedContent a:hover {
         background-color: #ffffff00 !important; } }
-  @media (hover: none), only screen and (max-width: 768px) {
+  @media (hover: none), only screen and (max-width: 991px) {
     .bc_nav_container #navbarSupportedContent {
       height: auto;
       max-height: 500px;

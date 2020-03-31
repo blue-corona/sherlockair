@@ -1,7 +1,7 @@
 // Nav bar color scheme according to theme customizer
 .bc_nav_container{
 	background-color: rgba(250, 250, 250, 0); // Nav bar Background
-	@media (hover: none), only screen and (max-width: 768px) {
+	@media (hover: none), only screen and (max-width: 991px) {
 		background-color: $primary_color; // Mobile nav bar Background
 	}
 	#navbarSupportedContent{
@@ -17,7 +17,7 @@
 			svg{
 				display: none !important;
 			}
-			@media (hover: none), only screen and (max-width: 768px) {
+			@media (hover: none), only screen and (max-width: 991px) {
 				svg{
 					display: none !important;
 					// display: inline-block !important;
@@ -28,7 +28,7 @@
 				}
 			}
 		}
-		@media (hover: none), only screen and (max-width: 768px) {
+		@media (hover: none), only screen and (max-width: 991px) {
 			height: auto;
 		    max-height: 500px;
 		    overflow-x: hidden;
