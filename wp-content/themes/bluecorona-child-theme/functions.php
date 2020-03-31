@@ -356,3 +356,7 @@ function bc_custom_excerpt_length( $length ) {
 return 20;
 }
 add_filter( 'excerpt_length', 'bc_custom_excerpt_length', 999 );
+
+/*Remove RSS*/
+remove_action( 'wp_head', 'feed_links_extra', 3 );
+remove_action( 'wp_head', 'feed_links', 2 );
