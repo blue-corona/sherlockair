@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 <div class="side-zone third" id="SideZone">
         <?php dynamic_sidebar( 'singleblogleftside' ); ?>
 
-	<aside class="side-nav v1 bg-box like-bg border-radius-item ui-repeater" id="BlogSystemV1SideNavArchives">
+	<!-- <aside class="side-nav v1 bg-box like-bg border-radius-item ui-repeater" id="BlogSystemV1SideNavArchives">
 	<nav>
 		<header class="text-left">
 			<h5>Archives</h5>
@@ -59,5 +59,5 @@ defined( 'ABSPATH' ) || exit;
 				</li>
 			</ul>
 		</nav>
-	</aside>
+	</aside> -->
 </div>
