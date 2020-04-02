@@ -72,22 +72,6 @@ defined( 'ABSPATH' ) || exit;
               </div>              
             </div>
           </div>
-          <!-- <strong class="title-style-5 title-color-5 hide-1280">Residential Plumbing &amp; HVAC Experts</strong>
-          <div class="flex-middle-end center-800 auto">
-            <nav class="hide-1024 secondary-nav" aria-label="Quick Links" id="HeaderV41QuickLinks">
-              <ul class="flex-middle">
-              </ul>
-            </nav>
-            <div class="phones flex-middle">
-              <span id="HeaderV4_1">
-                <a class="phone-link phone-number-style" href="tel:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-295-5014');?>"><span id="HeaderV4_3"><?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '760-295-5014');?></span></a>
-              </span>
-            </div>
-          
-          <a class="search-link hide-500 btn-colors" href="<?php echo get_home_url();?>/search/" title="Search Our Site" aria-label="Search Our Site"><svg viewBox="0 0 24 24" title="Search Icon" data-use="<?php echo get_stylesheet_directory_uri()?>/cms/svg/site/5d1zpk6tjes.24.svg#search">
-          <path d="M23.234 21.861L17.522 15.92c1.468-1.746 2.274-3.942 2.274-6.23c0-5.343-4.347-9.69-9.69-9.69s-9.69 4.347-9.69 9.69s4.347 9.69 9.69 9.69c2.006 0 3.918-0.604 5.552-1.754l5.756 5.986c0.24 0.25 0.564 0.387 0.91 0.387c0.328 0 0.639-0.126 0.876-0.352C23.7 23.164 23.716 22.364 23.234 21.861zM10.104 2.529c3.95 0 7.163 3.213 7.163 7.163s-3.213 7.163-7.163 7.163s-7.163-3.213-7.163-7.163S6.156 2.529 10.104 2.529z"></path>
-          </svg></a>
-          </div> -->
         </div>
         <div class="nav-bar flex-middle-between center-800" id="HeaderV4TopNavigation">
           <div class="show-when-small position-absolute w-100" style="top: 0; left:0; z-index: 3;">
