@@ -57,10 +57,10 @@ global $post;
         if ( $query->have_posts() ) :?>
     <section class="reviews v2 light-bg vertical-middle bg-image flow-reverse text-right col-40-60 items-overlapped bg-box-like start active show" id="ReviewsV2" data-onvisible="show" data-role="scroller">
     
-    <picture class="img-bg" role="presentation" data-role="picture">
+    <!-- <picture class="img-bg" role="presentation" data-role="picture">
         <source media="(max-width: 500px)" srcset="https://www.sherlockair.com/assets/reviews/reviews-v2-bg-mobile.jpg">
         <img src="https://www.sherlockair.com/assets/reviews/reviews-v2-bg.jpg" alt="">
-    </picture>
+    </picture> -->
     <div class="main">
         <header class="text-align center-800" id="ReviewsV2Header">
             
