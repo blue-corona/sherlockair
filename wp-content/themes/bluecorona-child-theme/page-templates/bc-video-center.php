@@ -21,7 +21,8 @@ get_header();
 		background-color: #005076;
 	}
 
-	.content-style ul li::before{top: 1em;}
+	.content-style ul li.next-btn::before{top: 1em;}
+	.content-style ul li.prev-btn::before{top: 1em;}
 	.video-system.v1 li [class*="pad-height-"] .btn-style{
     position: absolute;
     bottom: 1em;

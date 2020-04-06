@@ -20,7 +20,8 @@ get_header();
 	.prev-btn a:hover, .next-btn a:hover{
 		background-color: #005076;
 	}
-	.content-style ul li::before{top: 1em;}
+	.content-style ul li.next-btn::before{top: 1em;}
+	.content-style ul li.prev-btn::before{top: 1em;}
 </style>
 <section class="bread-crumbs v1 thin bg-box-none light-bg" id="BreadCrumbsV1Thin">
 	
