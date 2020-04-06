@@ -8316,6 +8316,8 @@ a.text-dark:hover, a.text-dark:focus {
       margin-top: 0px !important;
       padding-top: 18px !important;
       padding-bottom: 18px !important; }
+  .floating_labels_wrapper .floating_labels .ginput_container_phone input {
+    width: 100% !important; }
   .floating_labels_wrapper .gform_footer {
     padding: 12px !important;
     margin: 0px 0px !important; }
