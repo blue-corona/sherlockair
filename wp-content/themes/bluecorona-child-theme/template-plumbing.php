@@ -70,15 +70,7 @@ get_header();
 				</li>
 			</ul>
 		</div>	
-		
-		<ul class="flex-spaced-between top-margin post-paging">
-			<li class="next-btn">
-				<?php previous_post_link('%link', 'Prev Post', true); ?>
-			</li>
-			<li class="prev-btn">
-				<?php next_post_link('%link', 'Next Post', true ); ?>
-			</li>
-		</ul>
+
 
 
 		<div class="bg-box vertical-padding-small side-padding top-margin post">
