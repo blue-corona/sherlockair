@@ -35,7 +35,7 @@ function custom_promotion_shortcode( $atts , $content = null ){
    <div class="main">
       <header class="text-align center-800" id="CouponV2Header">
          <h4>Seasonal Savings</h4>
-         <strong>These specials offers wont last long!</strong>
+         <strong>These special offers wont last long!</strong>
          <svg role="presentation" class="header-flair" data-use="<?php echo get_stylesheet_directory_uri();?>/includes/flair.svg#header">
          </svg>
       </header>
