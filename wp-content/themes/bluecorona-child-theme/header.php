@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) || exit;
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/bc-sherlock-script.js"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/bc-sherlock-script.js?ver=1.2.0"></script>
     <!-- for sub page sidebar -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/jzzyopmtdiu.1912021253503.css" />
     <!-- for sub page sidebar -->
