@@ -15,7 +15,8 @@ class BC_Gravity_Widget extends WP_Widget {
 	
 	public function widget( $args, $instance ) {?>
 
-	<aside class="side-contact v1 light-bg side-padding-large text-left vertical-padding-tiny border-radius box-shadow" id="SideContactV1" data-onvisible="show">
+	<aside class="side-contact v1 light-bg side-padding-large text-left vertical-padding-tiny border-radius box-shadow slock_icon" id="SideContactV1" data-onvisible="show">
+    <div class="sherlock_formicon"><img src="<?php echo get_home_url();?>/wp-content/themes/bluecorona-child-theme/images/sherlock_formicon.png" / alt="icon"></div>
 	    <header class="text-align bottom-margin-small no-pad" id="SideContactV1Header">
 	    <h5>
 	    <?php 

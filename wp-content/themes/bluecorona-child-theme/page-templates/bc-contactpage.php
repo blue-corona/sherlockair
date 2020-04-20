@@ -32,7 +32,8 @@ get_header();?>
 	
 	<div class="main top-margin-small">
 		<div class="flex-auto-responsive-margined flex-direction align-items item-widths item-spacing"> 
-			<div class="bg-box side-padding-small vertical-padding-small under-item border-radius ui-repeater" id="ContactSystemV2Form">
+			<div class="bg-box side-padding-small vertical-padding-small under-item border-radius ui-repeater slock_icon" id="ContactSystemV2Form">
+            <div class="sherlock_formicon"><img src="<?php echo get_home_url();?>/wp-content/themes/bluecorona-child-theme/images/sherlock_formicon.png" / alt="icon"></div>
 					<div class="flair-border" data-item="i" data-key="">
 						<span class="flair-1"></span>
 						<span class="flair-2"></span>

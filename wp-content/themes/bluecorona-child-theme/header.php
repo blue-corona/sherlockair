@@ -43,6 +43,74 @@ defined( 'ABSPATH' ) || exit;
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/190ffc3b0c.js" crossorigin="anonymous"></script>
+    
+    <!-- FORM ICON STYLE -->
+<style type="text/css">
+.slock_icon{
+  position:relative;	
+}
+.bg-box.border-radius.side-padding.vertical-padding-small.box-flair.slock_icon{
+   overflow:visible;	
+}
+#SideContactV1.slock_icon {
+    overflow: visible;
+}
+#SideContactV1.slock_icon .sherlock_formicon{
+  width:140px;	
+}
+.sherlock_formicon{
+	width:170px;
+	position:absolute;
+	top:-60px;
+	right:-45px;
+}
+.sherlock_formicon img{
+  max-width:100%;	
+  
+}
+@media only screen and (min-width:1200px) and (max-width:1300px){
+	.sherlock_formicon {
+    width: 150px;
+	}
+	#SideContactV1.slock_icon .sherlock_formicon{
+	width: 150px;
+}
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+.sherlock_formicon {
+    width: 170px;
+    position: absolute;
+    top: -60px;
+    right: -25px;
+}
+#SideContactV1.slock_icon .sherlock_formicon{
+	width: 170px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+	.sherlock_formicon {
+    width: 150px;
+    position: absolute;
+    top: -60px;
+    right: -20px;
+}
+#SideContactV1.slock_icon .sherlock_formicon{
+	width: 150px;
+}
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+	.sherlock_formicon{
+	width: 100px;
+position: absolute;
+top: -50px;
+right: -10px;
+}
+#SideContactV1.slock_icon .sherlock_formicon{
+	width: 100px;
+}
+}
+</style>
+<!-- FORM ICON STYLE -->
   </head>
 
   <body <?php custom_body_class(); body_class();?>>
