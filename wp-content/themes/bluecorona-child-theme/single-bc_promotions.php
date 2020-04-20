@@ -28,7 +28,7 @@ color-adjust: exact !important;  /*Firefox*/ }
         <section class="coupons-print-page light-bg v1 no-padding transparent-bg ui-repeater" id="CouponsSystemPrintPageV1">
             <div class="type-2 coupon-style" data-item="i" data-key="4093">
                 <div class="coupon-border pseudo-after info text-center vertical-padding-small side-padding-medium border-radius">
-                    <img class="bottom-margin margin-auto" src="https://www.sherlockair.com/images/logos/Logo.png" alt="Sherlock Plumbing, Heating and Air">
+                    <img class="bottom-margin margin-auto" src="https://www.sherlockair.com/wp-content/themes/bluecorona-child-theme/images/logos/Logo.png" alt="Sherlock Plumbing, Heating and Air">
                     <span class="title-font">
                         <strong>
                         <strong><?php echo $title; ?></strong><br>

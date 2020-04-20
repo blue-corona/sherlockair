@@ -1,6 +1,6 @@
 <div class="related-posts top-margin ui-repeater" id="">
 	<div class="header text-align center-800" id="BlogPostPageV1RelatedPostsHeader">
-		<h4 class="title-style-1 title-color-1">Related Post</h4>
+		<h4 class="title-style-1 title-color-1">Related Posts</h4>
 	</div>	
 	<ul class="flex-grid-block-800-auto-size-wrap-break-1024 top-margin-small">
 	<?php

@@ -8,7 +8,6 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-
     <main id="MainZone"><section class="panel-group v1 relative no-padding light-bg bg-image bg-bottom-center" id="PanelGroupV5">
 
     <picture class="img-bg bg-position" role="presentation" data-role="picture">
@@ -75,8 +74,8 @@ get_header();
     <div class="main">
         <div class="flex-auto-responsive-margined-block-1024 align-items item-widths item-spacing flex-direction">
             <div class="text-align vertical-padding-small block-no-pad">
-                <header class="no-pad bottom-margin-tiny" id="ContactV6ContentHeader"><h1><strong>Carlsbad Heating and Air Conditioning</strong></h1>
-<h2>Premier HVAC &amp; Plumbing Company in Vista, CA</h2>
+                <header class="no-pad bottom-margin-tiny" id="ContactV6ContentHeader"><h1><strong>North County's Premier HVAC & Plumbing Company</strong></h1>
+<h2>Proudly servicing Carlsbad, Vista, Encinitas, Oceanside, San Marcos &amp; the Surrounding Areas</h2>
 </header>
                 <div class="content-style" id="ContactV6ContentMainContent"><p>Dear Neighbor,</p>
 <p>Thank you for visiting our website! At Sherlock Plumbing, Heating &amp;

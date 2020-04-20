@@ -8316,6 +8316,8 @@ a.text-dark:hover, a.text-dark:focus {
       margin-top: 0px !important;
       padding-top: 18px !important;
       padding-bottom: 18px !important; }
+  .floating_labels_wrapper .floating_labels .ginput_container_phone input {
+    width: 100% !important; }
   .floating_labels_wrapper .gform_footer {
     padding: 12px !important;
     margin: 0px 0px !important; }
@@ -8760,7 +8762,7 @@ select {
   text-align: left; }
 
 /* gravity form submit buttons */
-#SideZone .gform_widget .gform_footer #gform_submit_button_2, #gform_submit_button_6, #gform_submit_button_1 {
+#SideZone .gform_widget .gform_footer #gform_submit_button_2, #gform_submit_button_6, #gform_submit_button_1, #gform_submit_button_8 {
   background-color: #842F3F;
   color: #F5F9FA;
   position: relative;
@@ -8777,7 +8779,7 @@ select {
   font-weight: 600;
   text-transform: none; }
 
-#SideZone .gform_widget .gform_footer #gform_submit_button_2:hover, #gform_submit_button_6:hover, #gform_submit_button_1:hover {
+#SideZone .gform_widget .gform_footer #gform_submit_button_2:hover, #gform_submit_button_6:hover, #gform_submit_button_1:hover, #gform_submit_button_8:hover {
   color: #F5F9FA;
   background-color: #3F3F3F;
   border-radius: 0 1.5em 0 1.5em !important; }
@@ -8862,5 +8864,8 @@ section.sub-banner.v1 {
 /*Announcement bar text */
 .announcmenet-bar-left strong {
   font-size: 1.0em; }
+
+.light-bg .content-style .gform_wrapper ul li.gfield.gf_left_half:before {
+  content: none; }
 
 /*# sourceMappingURL=child-theme.css.map */

@@ -20,7 +20,8 @@ get_header();
 	.prev-btn a:hover, .next-btn a:hover{
 		background-color: #005076;
 	}
-	.content-style ul li::before{top: 1em;}
+	.content-style ul li.next-btn::before{top: 1em;}
+	.content-style ul li.prev-btn::before{top: 1em;}
 </style>
 <main id="MainZone">
 <section class="bread-crumbs v1 thin bg-box-none light-bg" id="BreadCrumbsV1Thin">
@@ -53,30 +54,8 @@ get_header();
 				<time itemprop="datePublished" content="<?php echo date("M d, Y", strtotime($cpost->post_date));?>"><?php echo date("M d, Y", strtotime($cpost->post_date));?></time>
 			</span>
 			<address class="title-style-5 title-color-5 relative" rel="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">By Sherlock</address>
-			<!-- <ul class="flex-grid-small-center-wrap top-margin-tiny relative text-align center-800" id="BlogPostPageV1SocialShare">
-				<li class="fit">
-					<a class="btn-colors social-link addthis_button_facebook at300b" href="#" title="Facebook" aria-label="Facebook" target="_blank"><svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#facebook"></use></svg></a>
-				</li>
-				<li class="fit">
-					<a class="btn-colors social-link addthis_button_twitter at300b" href="#" title="Twitter" aria-label="Twitter" target="_blank"><svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#twitter"></use></svg></a>
-				</li>
-				<li class="fit">
-					<a class="btn-colors social-link addthis_button_pinterest_share at300b" href="#" title="Pinterest" aria-label="Pinterest" target="_blank"><svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#pinterest"></use></svg></a>
-				</li>
-				<li class="fit">
-					<a class="btn-colors social-link addthis_button_linkedin at300b" href="#" title="Linkedin" aria-label="Linkedin" target="_blank"><svg viewBox="0 0 36 36"><use data-href="<?php echo get_stylesheet_directory_uri()?>/cms/svg/admin/c7mo_bz1802.36.svg#linkedin"></use></svg></a>
-				</li>
-			</ul> -->
 		</div>	
-		
-		<ul class="flex-spaced-between top-margin post-paging">
-			<li class="next-btn">
-				<?php previous_post_link('%link', 'Prev Post', true); ?>
-			</li>
-			<li class="prev-btn">
-				<?php next_post_link('%link', 'Next Post', true ); ?>
-			</li>
-		</ul>
+
 
 
 		<div class="bg-box vertical-padding-small side-padding top-margin post">
