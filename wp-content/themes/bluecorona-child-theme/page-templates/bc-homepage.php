@@ -111,9 +111,8 @@ get_header();
                     
                 </div>
             </div>
-            <div class="bg-box border-radius side-padding vertical-padding-small box-flair slock_icon">
+ <div class="bg-box border-radius side-padding vertical-padding-small box-flair slock_icon">
             <div class="sherlock_formicon"><img src="<?php echo get_home_url();?>/wp-content/themes/bluecorona-child-theme/images/sherlock_formicon.png" / alt="icon"></div>
-
                 <div class="flair-border">
                                     <span class="flair-1"></span>
                     <span class="flair-2"></span>
