@@ -162,6 +162,7 @@ color:#595959!important;
 #SideContactV1.slock_icon2 .sherlock_formicon{
 	width: 130px;
 	top: -30px;
+	right: -20px;
 }
 .slock_icon1 .sherlock_formicon {
     width: 110px;
@@ -186,6 +187,7 @@ right: -10px;
 #SideContactV1.slock_icon2 .sherlock_formicon{
 	width: 86px;
 	top: -26px;
+	right: -5px;
 }
 .slock_icon1 .sherlock_formicon{
 	width: 100px;
