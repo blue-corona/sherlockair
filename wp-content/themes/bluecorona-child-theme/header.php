@@ -43,6 +43,7 @@ defined( 'ABSPATH' ) || exit;
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/190ffc3b0c.js" crossorigin="anonymous"></script>
+
 <style type="text/css">
 .slock_icon{
   position:relative;
@@ -73,7 +74,9 @@ defined( 'ABSPATH' ) || exit;
   width:140px;	
 }
 #SideContactV1.slock_icon2 .sherlock_formicon{
-  width:140px;	
+  width:120px;	
+  top: -55px;
+    right: -35px;
 }
 .sherlock_formicon{
 	width:170px;
@@ -110,13 +113,19 @@ color:#595959!important;
 	width: 150px;
 }
 #SideContactV1.slock_icon2 .sherlock_formicon{
-	width: 150px;
+	width: 120px;
+	top: -55px;
+    right: -35px;
 }
 .slock_icon1 .sherlock_formicon {
-    width: 120px;
+    width: 110px;
     position: absolute;
-    top: -30px;
+    top: -25px;
     right: -45px;
+}
+#SideContactV1.slock_icon2 h5{
+font-size:1.5rem!important;
+color:#595959!important;
 }
 }
 @media only screen and (min-width:992px) and (max-width:1199px){
@@ -130,8 +139,8 @@ color:#595959!important;
 	width: 170px;
 }
 #SideContactV1.slock_icon2 .sherlock_formicon{
-	width: 150px;
-	top: -30px;
+	width: 130px;
+	top: -15px;
 }
 .slock_icon1 .sherlock_formicon {
     width: 100px;
@@ -151,14 +160,14 @@ color:#595959!important;
 	width: 150px;
 }
 #SideContactV1.slock_icon2 .sherlock_formicon{
-	width: 150px;
+	width: 130px;
 	top: -30px;
 }
 .slock_icon1 .sherlock_formicon {
-    width: 150px;
+    width: 110px;
     position: absolute;
-    top: -80px;
-    right: -20px;
+    top: -25px;
+    right: -24px;
 }
 .slock_icon2{
   margin-top:6%;
@@ -175,8 +184,8 @@ right: -10px;
 	width: 100px;
 }
 #SideContactV1.slock_icon2 .sherlock_formicon{
-	width: 100px;
-	top: -30px;
+	width: 86px;
+	top: -26px;
 }
 .slock_icon1 .sherlock_formicon{
 	width: 100px;
@@ -190,6 +199,9 @@ right: -10px;
 #SideContactV1.slock_icon2 h5{
 font-size:18px!important;
 color:#595959!important;
+}
+.slock_icon2 button#SideContactV1Form_ITM0_ctl09 {
+    margin-left: 12px!important;
 }
 }
 </style>
