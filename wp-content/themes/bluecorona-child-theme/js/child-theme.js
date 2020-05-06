@@ -7323,3 +7323,11 @@ jQuery(document).ready(function(){
 
   });
 });
+
+/* Homepage expandable collapsible section */
+jQuery('.homepage-readmore-btn').click(function(e) {
+  e.preventDefault();
+  console.log('click');
+  jQuery('.homepage-exp-content').slideToggle('slow');
+  jQuery(this).text(jQuery(this).text() == 'Read Less' ? 'Read More' : 'Read Less');
+});

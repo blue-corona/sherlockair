@@ -440,3 +440,37 @@ section.sub-banner.v1 {
 .light-bg .content-style .gform_wrapper ul li.gfield.gf_left_half:before {
   content: none;
 }
+
+/* Homepage read more button */
+.homepage-exp-btn {
+  background-color: #842F3F;
+  color: #F5F9FA;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  padding: 0.7em 1.5em;
+  z-index: 1;
+  transition: color 0.45s ease 0s, border-radius 0.45s ease 0s, background-color 0.45s ease 0s;
+  overflow: hidden;
+  border-radius: 1.5em 0em 1.5em 0em;
+  vertical-align: middle;
+  border: 1px solid transparent;
+}
+
+.homepage-readmore {
+  padding: 0 0 20px 0;
+}
+
+.homepage-exp-btn:hover {
+  color: #595959;
+  background-color: #D9D9D9;
+  border-radius: 0 1.5em 0 1.5em;
+}
+
+.homepage-exp-btn:focus {
+  outline: none;
+}
