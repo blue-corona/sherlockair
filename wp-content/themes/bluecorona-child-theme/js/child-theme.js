@@ -7331,3 +7331,11 @@ jQuery('.homepage-readmore-btn').click(function(e) {
   jQuery('.homepage-exp-content').slideToggle('slow');
   jQuery(this).text(jQuery(this).text() == 'Read Less' ? 'Read More' : 'Read Less');
 });
+
+/* Subpage expandable collapsible section */
+jQuery('.subpage-readmore-btn').click(function(e) {
+  e.preventDefault();
+  console.log('click');
+  jQuery('.subpage-exp-content').slideToggle('slow');
+  jQuery(this).text(jQuery(this).text() == 'Read Less' ? 'Read More' : 'Read Less');
+});
